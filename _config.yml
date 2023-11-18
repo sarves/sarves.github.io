@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Kengatharaiyer Sarveswaran"
   avatar           : "profile.png"
-  bio              : "Developing computational tools for Tamil and other low-resource languages, fostering digital linguistic diversity."
+  bio              : "Passionate about developing computational resources for Tamil and other low-resource languages to foster digital linguistic diversity"
   location         : "Sri Lanka"
   employer         : "University of Jaffna"
   pubmed           : 
@@ -99,10 +99,10 @@ author:
   github           : "serves"
   google_plus      :
   keybase          :
-  instagram        : "https://www.linkedin.com/in/iamsarves/"
+  instagram        : # "iamsarves"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "iamsarves"
   orcid            : 
   pinterest        :
   soundcloud       :

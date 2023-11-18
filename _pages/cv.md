@@ -11,21 +11,29 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Computer Science, University of Moratuwa, Sri Lanka (2022)
+* M.Sc. in Computer Science, University of Moratuwa, Sri Lanka (2011)
+* B.Sc. (Hons) in Computer Science, University of Peradeniya, Sri Lanka (2006)
+* pāla paṇṭitar (Junior Tamil Pundit), Jaffna Oriental Studies Society, Northern Department of Education, Sri Lanka (2016)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Senior Lecturer in Computer Science, Department of Computer Science, University of Jaffna, Sri Lanka, 2011 - to date)
+* Visiting Lecturer
+  * Open University of Sri Lanka
+  * Advanced Technical Institute, Jaffna
+  * Vavuniya Campus, University of Jaffna
+  * Faculty of Management Studies and Commerce, University of Jaffna
+  * Faculty of Arts, University of Jaffna
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Systems Engineer
+  * LK Domain Registry, Sri Lanka
+  * University of Moratuwa, Sri Lanka
+
+* Tech Lead
+  * Fetna, Sri Lanka
+  
+  
   
 Skills
 ======

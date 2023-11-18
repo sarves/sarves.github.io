@@ -18,7 +18,7 @@ Education
 
 Work experience
 ======
-* Senior Lecturer in Computer Science, Department of Computer Science, University of Jaffna, Sri Lanka, 2011 - to date)
+* Senior Lecturer in Computer Science, Department of Computer Science, University of Jaffna, Sri Lanka (2011 - to date)
 * Visiting Lecturer
   * Open University of Sri Lanka
   * Advanced Technical Institute, Jaffna
@@ -27,8 +27,16 @@ Work experience
   * Faculty of Arts, University of Jaffna
 
 * Systems Engineer
-  * LK Domain Registry, Sri Lanka
-  * University of Moratuwa, Sri Lanka
+  * LK Domain Registry, Sri Lanka (2010-2011)
+  * University of Moratuwa, Sri Lanka (2007-2009)
+  
+ * Computer Instructor
+   * University of Moratuwa, Sri Lanka (2006 - 2007)
 
 * Tech Lead
-  * Fetna, Sri Lanka
+  * Felidae, Sri Lanka (2008-2009)
+
+Consultancy
+======
+* e-Learning consultant, Bachelor of Business Management (Online) (2009 - 2018)
+* LMS consultant, Faculty of Agriculture, University of Jaffna (2014)

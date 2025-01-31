@@ -40,7 +40,29 @@
         .column:first-child {
             border-right: 1px solid #ccc;
         }
+	
 	   
+	.accordion {
+            background-color: #f1f1f1;
+            color: #444;
+            cursor: pointer;
+            padding: 15px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 18px;
+            transition: 0.4s;
+        }
+        .active, .accordion:hover {
+            background-color: #ddd;
+        }
+        .panel {
+            padding: 0 15px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
     </style>
     
 </head>
@@ -116,7 +138,12 @@ I am a Senior Lecturer in Computer Science at the University of Jaffna, Sri Lank
             </td>
         </tr>
     </table>
-	
+
+			
+<button class="accordion">Section 1</button>
+<div class="panel">
+    <p>Content for section 1.</p>
+</div>
 
 <h4> News </h4>(<em> Updated on the 12th of August 2024 </em>) 
 <ul>
@@ -169,6 +196,22 @@ I am a Senior Lecturer in Computer Science at the University of Jaffna, Sri Lank
     
     <!-- Other people may like it too! -->
     <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+
+<!-- script for accodian  -->
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
     
 </body>
 

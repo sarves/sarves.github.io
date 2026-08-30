@@ -1,5 +1,5 @@
 {
-  "note": "Supervision records are organised by degree and updated from the Research Project Supervision workbook. Where a project or thesis title was not provided in the workbook, the title is kept empty.",
+  "note": "Supervision records are organised by degree.",
   "groups": [
     {
       "degree": "PhD",

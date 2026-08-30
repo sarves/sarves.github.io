@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sarves.github.io/sitemap.xml

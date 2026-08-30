@@ -1,14 +1,22 @@
 {
-  "note": "This file is intentionally separated by degree. Add or edit entries here; the website updates automatically. BA/BSc/MA lists are left empty where a verified consolidated supervision record was not available at build time.",
+  "note": "Supervision records are organised by degree and updated from the Research Project Supervision workbook. Where a project or thesis title was not provided in the workbook, the title is kept empty.",
   "groups": [
     {
       "degree": "PhD",
       "students": [
         {
-          "name": "M. Ahrane (Ahrane Mahaganapathy)",
+          "name": "Ahrane Mahaganapathy",
           "title": "Building an Expressive Tamil TTS",
           "period": "July 2024–",
           "status": "Current",
+          "institution": "University of Jaffna",
+          "role": "Supervisor"
+        },
+        {
+          "name": "Hoashalarajh Rajendran",
+          "title": "",
+          "period": "",
+          "status": "",
           "institution": "University of Jaffna",
           "role": "Supervisor"
         }
@@ -18,7 +26,23 @@
       "degree": "MPhil",
       "students": [
         {
-          "name": "S. Sivashanth",
+          "name": "Nishanthini Kanthakumar",
+          "title": "Dialectal Aware Automatic Speech Recognition for Sri Lankan Tamil",
+          "period": "",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor"
+        },
+        {
+          "name": "Ajintha Sivakulasingam",
+          "title": "Building a Sri Lankan Tamil Language Model",
+          "period": "January 2026–",
+          "status": "Current",
+          "institution": "University of Jaffna",
+          "role": "Supervisor"
+        },
+        {
+          "name": "Suthakar Sivashanth",
           "title": "Improving Tamil OCR Using Post-Processing Techniques",
           "period": "July 2024–",
           "status": "Current",
@@ -26,23 +50,31 @@
           "role": "Supervisor"
         },
         {
-          "name": "S. Ajintha",
-          "title": "Building a Sri Lankan Tamil Language Model",
-          "period": "January 2026–",
-          "status": "Current",
+          "name": "Janotheepan Mariyathas",
+          "title": "Data-Efficient Dialect-Aware Text Generation: A Case of Sri Lankan Tamil",
+          "period": "",
+          "status": "",
           "institution": "University of Jaffna",
           "role": "Supervisor"
         }
       ]
     },
     {
-      "degree": "MA / MSc / Master's",
+      "degree": "MA",
       "students": [
         {
           "name": "Deniz Bilgin",
           "title": "Deciphering Sarcasm: Advancing Sentiment Analysis for Actionable Business Insights",
           "period": "2023–2024",
           "status": "Completed",
+          "institution": "University of Konstanz, Germany",
+          "role": "Supervisor"
+        },
+        {
+          "name": "Francesca Hoffmeier",
+          "title": "Tamil Morphological Analyser",
+          "period": "",
+          "status": "",
           "institution": "University of Konstanz, Germany",
           "role": "Supervisor"
         }
@@ -89,16 +121,481 @@
       ]
     },
     {
-      "degree": "MA",
-      "students": []
-    },
-    {
       "degree": "BA",
-      "students": []
+      "students": [
+        {
+          "name": "Dilukshana Chanthirasegaran",
+          "title": "Developing  Treebank Annotation for Kuṟaḷ veṇpā : Thirukuṟaḷ",
+          "period": "",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2018/A/SPI/501"
+        },
+        {
+          "name": "Luxsiya Rasanayagam",
+          "title": "Compound Word Expressions in Tamil Language – A Corpus-based Study",
+          "period": "",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2018/A/SPI/510"
+        }
+      ]
     },
     {
       "degree": "BSc",
-      "students": []
+      "students": [
+        {
+          "name": "D. M. Chathumee Ransisi",
+          "title": "",
+          "period": "2024/2025",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2022/CSC/016",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "J. Kasuni Nisansala",
+          "title": "",
+          "period": "2024/2025",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2022/CSC/031",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "S. Himath Hansana Senasinghe",
+          "title": "",
+          "period": "2024/2025",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2022/CSC/068",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "V. W. Nirman",
+          "title": "",
+          "period": "2024/2025",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2022/CSC/074",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "B.A. Shanika Nishadi",
+          "title": "",
+          "period": "2024/2025",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2022/SP/006",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "Miruba Gunaseelan",
+          "title": "",
+          "period": "2024/2025",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2022/SP/034",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "Shakthitha Sivarajah",
+          "title": "",
+          "period": "2024/2025",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2022/SP/132",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "Ibrahim Fathima Risani",
+          "title": "",
+          "period": "2023/2024",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2021/CSC/095",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "Thillainathan Adsajan",
+          "title": "",
+          "period": "2023/2024",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2021/SP/146"
+        },
+        {
+          "name": "Miliyana Arachchige Malshi Kavindya Wijesinghe",
+          "title": "",
+          "period": "2023/2024",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2021/CSC/041"
+        },
+        {
+          "name": "Varsha Jeyarajalingam",
+          "title": "",
+          "period": "2023/2024",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2021/CSC/080"
+        },
+        {
+          "name": "Hollu Pathirage Tharindu Sampath Kaldera",
+          "title": "",
+          "period": "2023/2024",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2021/CSC/020"
+        },
+        {
+          "name": "Sinhalage Thiwanka Chanditha",
+          "title": "",
+          "period": "2023/2024",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2021/CSC/053"
+        },
+        {
+          "name": "Abdhul Munaf Musharaf",
+          "title": "",
+          "period": "2023/2024",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2021/CSC/001"
+        },
+        {
+          "name": "Sathasivam Nerujan",
+          "title": "",
+          "period": "2022/2023",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2020/CSC/055"
+        },
+        {
+          "name": "Weerasinghe Gedara Madhara Vidumini Weerasinghe",
+          "title": "",
+          "period": "2022/2023",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2020/CSC/069"
+        },
+        {
+          "name": "Thulashika Balachandran",
+          "title": "",
+          "period": "2022/2023",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2020/SP/017"
+        },
+        {
+          "name": "Nilusana Gobalakrishnar",
+          "title": "",
+          "period": "2022/2023",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2020/SP/044"
+        },
+        {
+          "name": "Sadeepa Weerasinghe Pathirana Navarathnalage",
+          "title": "",
+          "period": "2022/2023",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "2020/CSC/039"
+        },
+        {
+          "name": "Mr. R. M. I. Nuwantha Karunarathna",
+          "title": "Prosodic Phrase Alignment for Automatic Dubbing: English-to-Sinhala",
+          "period": "2021/2022",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Dr. K. Sarveswaran; Dr. R. Pushpananda"
+        },
+        {
+          "name": "Mr. A. Roshika Nayanadhara",
+          "title": "Assessing the Performance of Open-Source Language Models in Prompt Engineering Techniques",
+          "period": "2021/2022",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. Thangaththurai Jenthan",
+          "title": "Textual Emotion Detection in Facebook Tamil Comments",
+          "period": "2020/2021",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. Tharmarasa Vinothraj",
+          "title": "Hate Speech Detection on Twitter",
+          "period": "2020/2021",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Dr. K. Sarveswaran"
+        },
+        {
+          "name": "Ms. Ambujaa S.",
+          "title": "A Model to Predict the Next Page the User Will Visit",
+          "period": "2015/2016",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Dr. E. Y. A. Charles; Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. A. Arunpragash",
+          "title": "Home Appliance Automation and Monitoring System",
+          "period": "2014/2015",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. I. D. Q. Balendra",
+          "title": "Automatic 3D Model Generation from an Architectural Plan",
+          "period": "2014/2015",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. M. Janahan",
+          "title": "Ultrasonic Repeller",
+          "period": "2014/2015",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Ms. Kalaiyarasi G.",
+          "title": "Senior Citizen Assistant",
+          "period": "2014/2015",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. K. A. H. M. Karunathilake",
+          "title": "Effective Text-to-Speech System for the Sinhala Language",
+          "period": "2014/2015",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. Laventhiran T.",
+          "title": "Improving Statistical Machine Translation Using Linguistic Information",
+          "period": "2014/2015",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. M. R. Mohammad Naseer",
+          "title": "Analysis of Nitrogen Using Image Processing and IoT",
+          "period": "2014/2015",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Ms. Sivaramya S.",
+          "title": "Tamil Grammar Checker",
+          "period": "2014/2015",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Ms. Biruntha G.",
+          "title": "Infant Caretaker: A System to Identify Baby Crying and Entertain a Crying Baby",
+          "period": "2013/2014",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. S. Jayasingha",
+          "title": "Right2Sight",
+          "period": "2013/2014",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. M. I. M. Nifras",
+          "title": "Consumer Buying Pattern Analysis Using an Efficient Approach",
+          "period": "2013/2014",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. K. Suwarnakumar",
+          "title": "Tamil Corpus Retrieval Engine Using Apache Solr",
+          "period": "2013/2014",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. Y. Achchuthan",
+          "title": "Language Localisation of Tamil Using Statistical Machine Translation",
+          "period": "2012/2013",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Ms. Arththika P.",
+          "title": "Statistical Machine Translation for Software Localization",
+          "period": "2011/2012",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Ms. Jananie S.",
+          "title": "Tamil Spell Checker Using a Hybrid Approach",
+          "period": "2011/2012",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Mr. R. Jarachanthan",
+          "title": "An Automated Distributed Storage System",
+          "period": "2011/2012",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Ms. Shakila S.",
+          "title": "Hierarchical Approach for Publishing an Electronic Calendar",
+          "period": "2011/2012",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Ms. Meera V.",
+          "title": "A Model Calendar",
+          "period": "2010/2011",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "Ms. Vanaja K.",
+          "title": "Mobile Terminal-Based Attendance Registering System Using Near Field Communication (NFC)",
+          "period": "2010/2011",
+          "status": "",
+          "institution": "University of Jaffna",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Mr. K. Sarveswaran"
+        },
+        {
+          "name": "S Premkumar, N Sivarasa, S Yogendrarajah",
+          "title": "",
+          "period": "",
+          "status": "",
+          "institution": "University of Moratuwa",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "K. Sarveswaran and Gihan Dias"
+        },
+        {
+          "name": "K Uthayamoorthy, K Kanthasamy, T Senthaalan",
+          "title": "",
+          "period": "",
+          "status": "",
+          "institution": "University of Moratuwa",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "Sarveswaran and Gihan Dias"
+        },
+        {
+          "name": "HC Randika, HE Martin, DMRR Sampath, DS Metihakwala",
+          "title": "",
+          "period": "",
+          "status": "",
+          "institution": "University of Moratuwa",
+          "role": "Supervisor",
+          "registration": "",
+          "supervisors": "K Sarveswaren and M Wijekoon"
+        }
+      ]
     }
   ],
   "examinations": [

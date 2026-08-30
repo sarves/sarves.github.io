@@ -1,0 +1,159 @@
+{
+  "current": [
+    {
+      "course": "Corpus Linguistics with Python",
+      "level": "Master's",
+      "institution": "University of Konstanz",
+      "year": "2026",
+      "detail": "MA-level course during substitute professorship."
+    },
+    {
+      "course": "Research Seminar / Research Colloquium",
+      "level": "Master's",
+      "institution": "University of Konstanz",
+      "year": "2026",
+      "detail": "MA-level research seminar."
+    },
+    {
+      "course": "Systems and Network Administration",
+      "level": "BSc",
+      "institution": "University of Jaffna",
+      "year": "Recent",
+      "detail": "Systems administration using practical server and network environments."
+    },
+    {
+      "course": "Computer Security / Cryptography",
+      "level": "BSc",
+      "institution": "University of Jaffna",
+      "year": "Recent",
+      "detail": "Security foundations, cryptography and system/network security."
+    },
+    {
+      "course": "Database Management / Administration",
+      "level": "BSc",
+      "institution": "University of Jaffna",
+      "year": "Recent",
+      "detail": "Database systems with practical administration components."
+    }
+  ],
+  "international": [
+    {
+      "course": "Grammar Engineering",
+      "institution": "University of Konstanz",
+      "year": "2024",
+      "detail": "MA Speech and Language Processing; co-taught."
+    },
+    {
+      "course": "Corpus Linguistics with Python",
+      "institution": "University of Konstanz",
+      "year": "2024",
+      "detail": "MA Speech and Language Processing; co-taught."
+    },
+    {
+      "course": "Challenges for NLP from South Asian Languages",
+      "institution": "University of Konstanz",
+      "year": "2023",
+      "detail": "MA Speech and Language Processing; co-taught with Tafseer Ahmed."
+    },
+    {
+      "course": "Challenges of Processing South Asian Languages",
+      "institution": "ESSLLI, KU Leuven",
+      "year": "2024",
+      "detail": "Five-day summer-school course, co-taught with Tafseer Ahmed."
+    }
+  ],
+  "undergraduate": [
+    "Systems and Network Administration",
+    "Data Communication and Computer Networks",
+    "Computer System Administration",
+    "Introduction to Computer Security and Cryptography",
+    "Computer Networks and Internet Computing",
+    "Database Management Systems",
+    "Cryptography and Data Security",
+    "Software Engineering",
+    "e-Technologies",
+    "Rapid Application Development",
+    "Web Technologies",
+    "Practical Computing I–III",
+    "Computational Linguistics",
+    "Computational Sanskrit"
+  ],
+  "postgraduate": [
+    "ICT Skills for MBA programmes",
+    "Methodology of Teaching ICT",
+    "Research seminars and thesis supervision",
+    "Corpus Linguistics",
+    "Grammar Engineering",
+    "South Asian NLP"
+  ],
+  "training": [
+    "e-Learning and Learning Management Systems",
+    "Open-source systems and web technologies",
+    "Research Data Management and Open Science support",
+    "Generative AI for teaching/research",
+    "Local language computing and Unicode",
+    "Linux server, network and systems administration"
+  ],
+  "historicalTeaching": [
+    {
+      "course": "Computational Linguistics",
+      "institution": "Department of Linguistics and English, University of Jaffna",
+      "period": "2024"
+    },
+    {
+      "course": "ICT and Society",
+      "institution": "Faculty of Arts, University of Jaffna",
+      "period": "2014–2015"
+    },
+    {
+      "course": "Introduction to ICT",
+      "institution": "Faculty of Arts, University of Jaffna",
+      "period": "2014"
+    },
+    {
+      "course": "Networking and Web Designing in Business",
+      "institution": "Faculty of Management Studies and Commerce, University of Jaffna",
+      "period": "2014–2016"
+    },
+    {
+      "course": "Information System and Security Management",
+      "institution": "Faculty of Management Studies and Commerce, University of Jaffna",
+      "period": "2016"
+    },
+    {
+      "course": "Methodology of Teaching ICT",
+      "institution": "Faculty of Graduate Studies, University of Jaffna",
+      "period": "2022"
+    },
+    {
+      "course": "ICT Skills",
+      "institution": "Open University of Sri Lanka",
+      "period": "Jan–Mar 2014"
+    },
+    {
+      "course": "Server Management",
+      "institution": "Eastern University of Sri Lanka",
+      "period": "2013–2014"
+    },
+    {
+      "course": "Server Management and Computer Networks",
+      "institution": "Trincomalee Campus, Eastern University of Sri Lanka",
+      "period": "2012–2013"
+    },
+    {
+      "course": "Web Development",
+      "institution": "Advanced Technological Institute, Jaffna",
+      "period": "2011"
+    },
+    {
+      "course": "Computer Networks",
+      "institution": "Online BIT degree programme, University of Moratuwa",
+      "period": "2007–2011"
+    },
+    {
+      "course": "Linux Server Administration",
+      "institution": "WinSYS Networks, Colombo",
+      "period": "2010"
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "publications": [
+    {
+      "year": 2026,
+      "type": "proceedings",
+      "title": "Proceedings of the Second Workshop on Challenges in Processing South Asian Languages (CHiPSAL 2026)",
+      "authors": "Kengatharaiyer Sarveswaran, Surendrabikram Thapa, Ashwini Vaidya, Tafseer Ahmed, Bal Krishna Bal (eds.)",
+      "venue": "ELRA Language Resources Association",
+      "url": "https://aclanthology.org/volumes/2026.chipsal-1/",
+      "featured": true
+    },
+    {
+      "year": 2026,
+      "type": "conference",
+      "title": "Findings of the Second Workshop on Challenges in Processing South Asian Languages (CHiPSAL 2026)",
+      "authors": "Kengatharaiyer Sarveswaran, Surendrabikram Thapa, Ashwini Vaidya, Tafseer Ahmed, Bal Krishna Bal",
+      "venue": "Proceedings of CHiPSAL 2026, LREC 2026",
+      "pages": "1–8",
+      "doi": "10.63317/4c7g3mdcb3jv",
+      "url": "https://aclanthology.org/events/chipsal-2026/",
+      "featured": true
+    },
+    {
+      "year": 2026,
+      "type": "conference",
+      "title": "Evaluating Linguistic Knowledge of LLMs in Tamil: The ILAKKANAM Benchmark",
+      "authors": "Jeyarajalingam Varsha, Menan Velayuthan, Sumirtha Karunakaran, Rasan Nivethiga, Kengatharaiyer Sarveswaran",
+      "venue": "Proceedings of CHiPSAL 2026, LREC 2026",
+      "pages": "176–189",
+      "url": "https://aclanthology.org/events/chipsal-2026/",
+      "code": "https://github.com/LTG-UoJ/ILAKKANAM-Public",
+      "featured": true
+    },
+    {
+      "year": 2026,
+      "type": "conference",
+      "title": "A Feature-Fusion Ensemble Approach for Tamil Hate Speech Detection",
+      "authors": "Sathasivam Nerujan, Kengatharaiyer Sarveswaran",
+      "venue": "Proceedings of CHiPSAL 2026, LREC 2026",
+      "pages": "190–197",
+      "doi": "10.63317/2us8ubrf4jvi",
+      "url": "https://aclanthology.org/events/chipsal-2026/",
+      "featured": true
+    },
+    {
+      "year": 2026,
+      "type": "conference",
+      "title": "Multimodal Hate and Sentiment Understanding in Low-Resource Text-Embedded Images for Online Safety and Digital Well-being",
+      "authors": "Surendrabikram Thapa, Shuvam Shiwakoti, Siddhant Bikram Shah, Kritesh Rauniyar, Laxmi Thapa, Surabhi Adhikari, Kristina T. Johnson, Kengatharaiyer Sarveswaran, Bal Krishna Bal, Usman Naseem",
+      "venue": "Proceedings of CHiPSAL 2026, LREC 2026",
+      "pages": "219–228",
+      "doi": "10.63317/3rhxrpvoi74j",
+      "url": "https://aclanthology.org/events/chipsal-2026/",
+      "featured": false
+    },
+    {
+      "year": 2026,
+      "type": "conference",
+      "title": "TaLK-Corpus: A Regionally Diverse Evaluation Set for Sri Lankan Tamil Speech",
+      "authors": "Adsajan Thillainathan, Nishanthini Kanthakumar, Nivethiga Rasan, Kengatharaiyer Sarveswaran",
+      "venue": "SPEAKABLE @ LREC 2026",
+      "pages": "194–200",
+      "doi": "10.63317/5edtmzph3wu4",
+      "url": "https://aclanthology.org/volumes/2026.speakable-1/",
+      "code": "https://github.com/LTG-UoJ/TaLK-Corpus-Public",
+      "featured": true
+    },
+    {
+      "year": 2026,
+      "type": "journal",
+      "title": "Comprehensive Evaluation of Tamil OCR Systems: A Survey, Dataset Creation, Benchmarking, and Error Analysis",
+      "authors": "S. Sivashanth, Kengatharaiyer Sarveswaran, Eugene Y. A. Charles",
+      "venue": "International Journal on Advances in ICT for Emerging Regions (ICTer), 18(3)",
+      "doi": "10.4038/icter.v18i3.7305",
+      "url": "https://doi.org/10.4038/icter.v18i3.7305",
+      "featured": true
+    },
+    {
+      "year": 2026,
+      "type": "conference",
+      "title": "Bridging Dialectal Variation: A Phonetic Transcription Tool for Tamil",
+      "authors": "Ahrane Mahaganapathy, Sumirtha Karunakaran, Kavitha Navakulan, Kengatharaiyer Sarveswaran",
+      "venue": "Proceedings of the 13th Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2026)",
+      "pages": "234–241",
+      "doi": "10.18653/v1/2026.vardial-1.19",
+      "url": "https://aclanthology.org/2026.vardial-1.19/",
+      "featured": true
+    },
+    {
+      "year": 2026,
+      "type": "preprint",
+      "title": "LLMs for Low-Resource Languages: A Survey",
+      "authors": "Naveed J. N. Unjum, Stephanie Evert, Kengatharaiyer Sarveswaran, Ruvan Weerasinghe, et al.",
+      "venue": "SSRN / Elsevier",
+      "doi": "10.2139/ssrn.4712345",
+      "url": "https://doi.org/10.2139/ssrn.4712345",
+      "featured": false
+    },
+    {
+      "year": 2025,
+      "type": "journal",
+      "title": "Publishing Journal Articles: 5 Tips for Success",
+      "authors": "Kengatharaiyer Sarveswaran, Israel E. Ebhohimen, Karthika Krishna Kumar, Maheshwar Gopu, Yeliena Kovalska, Philipp Mayer",
+      "venue": "Learned Publishing, 38(4), e2017",
+      "doi": "10.1002/leap.2017",
+      "url": "https://doi.org/10.1002/leap.2017",
+      "featured": false
+    },
+    {
+      "year": 2025,
+      "type": "journal",
+      "title": "Extending Universal Dependencies to Tamil Poetics: Multiword Tokenisation and Ellipsis in the Thirukkuraḷ Treebank",
+      "authors": "C. Dilukshana, Kengatharaiyer Sarveswaran",
+      "venue": "KDU Journal of Multidisciplinary Studies, 7(2), 207–216",
+      "doi": "10.4038/kjms.v7i2.218",
+      "url": "https://doi.org/10.4038/kjms.v7i2.218",
+      "featured": true
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "IYAL: Input Text Normalizer for Tamil Language",
+      "authors": "S. Premkumar, N. Sivarasa, S. Yogendrarajah, G. Dias, Kengatharaiyer Sarveswaran",
+      "venue": "2025 Moratuwa Engineering Research Conference (MERCon)",
+      "pages": "852–857",
+      "doi": "10.1109/MERCon67903.2025.11217003",
+      "url": "https://doi.org/10.1109/MERCon67903.2025.11217003",
+      "featured": false
+    },
+    {
+      "year": 2025,
+      "type": "preprint",
+      "title": "From Phonemes to Meaning: Evaluating Large Language Models on Tamil",
+      "authors": "Jeyarajalingam Varsha, Menan Velayuthan, Sumirtha Karunakaran, Rasan Nivethiga, Kengatharaiyer Sarveswaran",
+      "venue": "arXiv:2511.12387",
+      "url": "https://arxiv.org/abs/2511.12387",
+      "featured": false
+    },
+    {
+      "year": 2025,
+      "type": "preprint",
+      "title": "Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures",
+      "authors": "T. A. Chang, C. Arnett, A. Eldesokey, A. Sadallah, A. Kashar, A. Daud, et al., including Kengatharaiyer Sarveswaran",
+      "venue": "arXiv:2510.24081",
+      "url": "https://arxiv.org/abs/2510.24081",
+      "featured": false
+    },
+    {
+      "year": 2025,
+      "type": "journal",
+      "title": "A Survey and Evaluation of Text-to-Speech Systems for the Tamil Language",
+      "authors": "Ahrane Mahaganapathy, Kengatharaiyer Sarveswaran",
+      "venue": "Natural Language Processing Journal, 12, 100171",
+      "doi": "10.1016/j.nlp.2025.100171",
+      "url": "https://doi.org/10.1016/j.nlp.2025.100171",
+      "featured": true
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "Egalitarian Language Representation in Language Models: It All Begins with Tokenizers",
+      "authors": "Menan Velayuthan, Kengatharaiyer Sarveswaran",
+      "venue": "Proceedings of COLING 2025",
+      "pages": "5987–5996",
+      "url": "https://aclanthology.org/2025.coling-main.400/",
+      "featured": true
+    },
+    {
+      "year": 2025,
+      "type": "proceedings",
+      "title": "Proceedings of the First Workshop on Challenges in Processing South Asian Languages (CHiPSAL 2025)",
+      "authors": "Kengatharaiyer Sarveswaran, Ashwini Vaidya, Bal Krishna Bal, Sana Shams, Surendrabikram Thapa (eds.)",
+      "venue": "COLING 2025",
+      "url": "https://aclanthology.org/2025.chipsal-1.0/",
+      "featured": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "A Brief Overview of the First Workshop on Challenges in Processing South Asian Languages (CHiPSAL)",
+      "authors": "Kengatharaiyer Sarveswaran, Surendrabikram Thapa, Sana Shams, Ashwini Vaidya, Bal Krishna Bal",
+      "venue": "Proceedings of CHiPSAL 2025",
+      "pages": "1–8",
+      "url": "https://aclanthology.org/2025.chipsal-1.1/",
+      "featured": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "Natural Language Understanding of Devanagari Script Languages: Language Identification, Hate Speech and its Target Detection",
+      "authors": "Surendrabikram Thapa, Kritesh Rauniyar, F. A. Jafri, S. Adhikari, Kengatharaiyer Sarveswaran, Bal Krishna Bal, H. Veeramani, Usman Naseem",
+      "venue": "Proceedings of CHiPSAL 2025",
+      "pages": "71–82",
+      "url": "https://aclanthology.org/2025.chipsal-1.7/",
+      "featured": false
+    },
+    {
+      "year": 2024,
+      "type": "conference",
+      "title": "Aalamaram: A Large-Scale Linguistically Annotated Treebank for the Tamil Language",
+      "authors": "A. M. Abirami, W. Q. Leong, H. Rengarajan, D. Anitha, R. Suganya, H. Singh, Kengatharaiyer Sarveswaran, W. C. Tjhi, R. R. Shah",
+      "venue": "7th Workshop on Indian Language Data: Resources and Evaluation (WILDRE)",
+      "pages": "73–83",
+      "featured": true
+    },
+    {
+      "year": 2024,
+      "type": "conference",
+      "title": "Building Tamil Treebanks",
+      "authors": "Kengatharaiyer Sarveswaran",
+      "venue": "International Conference on Tamil Computing and Information Technology / 23rd Tamil Internet Conference",
+      "pages": "22–32",
+      "featured": false
+    },
+    {
+      "year": 2024,
+      "type": "preprint",
+      "title": "Morphology and Syntax of the Tamil Language",
+      "authors": "Kengatharaiyer Sarveswaran",
+      "venue": "arXiv:2401.08367",
+      "url": "https://arxiv.org/abs/2401.08367",
+      "featured": false
+    },
+    {
+      "year": 2023,
+      "type": "preprint",
+      "title": "BHASA: A Holistic Southeast Asian Linguistic and Cultural Evaluation Suite for Large Language Models",
+      "authors": "W. Q. Leong, J. G. Ngui, Y. Susanto, H. Rengarajan, Kengatharaiyer Sarveswaran, W. C. Tjhi",
+      "venue": "arXiv:2309.06085",
+      "url": "https://arxiv.org/abs/2309.06085",
+      "featured": false
+    },
+    {
+      "year": 2023,
+      "type": "conference",
+      "title": "Sentiment Analysis of Code-Mixed Tamil and Tulu by Training Contextualized ELMo Representations",
+      "authors": "T. Ehsan, A. Tehseen, Kengatharaiyer Sarveswaran, A. Ali",
+      "venue": "Third Workshop on Speech and Language Technologies for Dravidian Languages (RANLP 2023)",
+      "pages": "152–159",
+      "featured": false
+    },
+    {
+      "year": 2023,
+      "type": "conference",
+      "title": "Sinhala Dependency Treebank (STB)",
+      "authors": "C. Liyanage, Kengatharaiyer Sarveswaran, T. Nadungodage, R. Pushpananda",
+      "venue": "Sixth Workshop on Universal Dependencies",
+      "pages": "17–26",
+      "featured": true
+    },
+    {
+      "year": 2023,
+      "type": "conference",
+      "title": "Codification of Navalar’s Tamil Grammar",
+      "authors": "Kengatharaiyer Sarveswaran, S. Mahesan",
+      "venue": "First International Conference on Social Sciences and Languages (ICSSL 2023)",
+      "pages": "291–295",
+      "featured": false
+    },
+    {
+      "year": 2022,
+      "type": "conference",
+      "title": "Towards Building a Modern Written Tamil Treebank",
+      "authors": "K. Parameswari, Kengatharaiyer Sarveswaran",
+      "venue": "20th International Workshop on Treebanks and Linguistic Theories",
+      "featured": true
+    },
+    {
+      "year": 2021,
+      "type": "conference",
+      "title": "Building a Part-of-Speech Tagger for the Tamil Language",
+      "authors": "Kengatharaiyer Sarveswaran, Gihan Dias",
+      "venue": "International Conference on Asian Language Processing (IALP 2021)",
+      "pages": "286–291",
+      "doi": "10.1109/IALP54817.2021.9675195",
+      "url": "https://doi.org/10.1109/IALP54817.2021.9675195",
+      "featured": false
+    },
+    {
+      "year": 2021,
+      "type": "conference",
+      "title": "Neural-Based Tamil Grammar Error Detection",
+      "authors": "M. Dineskumar, R. Anankan, Kengatharaiyer Sarveswaran, Gihan Dias",
+      "venue": "Workshop on Parsing and its Applications for Indian Languages (PAIL 2021)",
+      "featured": false
+    },
+    {
+      "year": 2021,
+      "type": "journal",
+      "title": "ThamizhiMorph: A Morphological Parser for the Tamil Language",
+      "authors": "Kengatharaiyer Sarveswaran, Gihan Dias, Miriam Butt",
+      "venue": "Machine Translation, 35, 37–70",
+      "doi": "10.1007/s10590-021-09261-5",
+      "url": "https://doi.org/10.1007/s10590-021-09261-5",
+      "featured": true
+    },
+    {
+      "year": 2019,
+      "type": "conference",
+      "title": "DDSpell – A Data-Driven Spell Checker and Suggestion Generator for the Tamil Language",
+      "authors": "U. Keerthana, K. Kirshika, T. Senthaalan, Kengatharaiyer Sarveswaran, Gihan Dias",
+      "venue": "IEEE ICTer 2019",
+      "featured": false
+    },
+    {
+      "year": 2019,
+      "type": "conference",
+      "title": "Using Meta-Morph Rules to Develop Morphological Analysers: A Case Study Concerning Tamil",
+      "authors": "Kengatharaiyer Sarveswaran, Gihan Dias, Miriam Butt",
+      "venue": "14th International Conference on Finite-State Methods and Natural Language Processing",
+      "featured": false
+    },
+    {
+      "year": 2019,
+      "type": "conference",
+      "title": "Computational Challenges with Tamil Complex Predicates",
+      "authors": "Kengatharaiyer Sarveswaran, Miriam Butt",
+      "venue": "24th International Lexical-Functional Grammar Conference",
+      "featured": true
+    },
+    {
+      "year": 2018,
+      "type": "conference",
+      "title": "ThamizhiFST: A Morphological Analyser and Generator for Tamil Verbs",
+      "authors": "Kengatharaiyer Sarveswaran, Gihan Dias, Miriam Butt",
+      "venue": "3rd International Conference on Information Technology Research (ICITR)",
+      "pages": "1–6",
+      "featured": true
+    },
+    {
+      "year": 2017,
+      "type": "conference",
+      "title": "SATS: A Computer Aided Translation Engine",
+      "authors": "K. Indrajith, M. Naseer, Kengatharaiyer Sarveswaran",
+      "venue": "Third International Conference on Linguistics in Sri Lanka",
+      "featured": false
+    },
+    {
+      "year": 2017,
+      "type": "conference",
+      "title": "Recognising Elders Using Behavioural Biometrics",
+      "authors": "R. Preethiraj, Kengatharaiyer Sarveswaran",
+      "venue": "Kelaniya International Conference on Advances in Computing and Technology",
+      "featured": false
+    },
+    {
+      "year": 2016,
+      "type": "conference",
+      "title": "Consumer Buying Pattern Analysis Using an Efficient Approach",
+      "authors": "M. I. Nifras, Kengatharaiyer Sarveswaran",
+      "venue": "IEEE International Conference on Engineering & Technology (ICETECH)",
+      "pages": "567–570",
+      "featured": false
+    },
+    {
+      "year": 2016,
+      "type": "conference",
+      "title": "Infant Caretaker: A System to Identify Baby Cry and Entertain Crying Baby",
+      "authors": "G. Biruntha, Kengatharaiyer Sarveswaran",
+      "venue": "IEEE International Conference on Engineering & Technology (ICETECH)",
+      "pages": "576–579",
+      "featured": false
+    },
+    {
+      "year": 2015,
+      "type": "conference",
+      "title": "Language Localisation of Tamil Using Statistical Machine Translation",
+      "authors": "Y. Achchuthan, Kengatharaiyer Sarveswaran",
+      "venue": "IEEE ICTer 2015",
+      "pages": "125–129",
+      "featured": false
+    },
+    {
+      "year": 2015,
+      "type": "conference",
+      "title": "Contextual Spell Checking for Tamil Language",
+      "authors": "S. Jananie, Kengatharaiyer Sarveswaran",
+      "venue": "14th Tamil Internet Conference",
+      "pages": "379–383",
+      "featured": false
+    },
+    {
+      "year": 2014,
+      "type": "conference",
+      "title": "Hierarchical Tag-Set for Rule-Based Processing of Tamil Language",
+      "authors": "Kengatharaiyer Sarveswaran, S. Mahesan",
+      "venue": "International Conference on Multidisciplinary Approaches (iCMA)",
+      "featured": false
+    },
+    {
+      "year": 2014,
+      "type": "conference",
+      "title": "Hybrid Approach for Spell Checking of Tamil Language",
+      "authors": "A. Jananie, Kengatharaiyer Sarveswaran",
+      "venue": "Peradeniya University International Research Sessions",
+      "featured": false
+    },
+    {
+      "year": 2014,
+      "type": "conference",
+      "title": "A Systematic Approach for the Utilisation of Excess Hard Disk Memory of Personal Computers",
+      "authors": "R. Jarachanthan, Kengatharaiyer Sarveswaran",
+      "venue": "Peradeniya University International Research Sessions",
+      "featured": false
+    },
+    {
+      "year": 2014,
+      "type": "conference",
+      "title": "A Hierarchical Approach for Publishing an Electronic Calendar",
+      "authors": "S. Shakila, Kengatharaiyer Sarveswaran",
+      "venue": "21st Annual Sessions, Jaffna Science Association",
+      "featured": false
+    },
+    {
+      "year": 2010,
+      "type": "conference",
+      "title": "Scalable Fault Tolerant Architecture for Complex Event Processing Systems",
+      "authors": "H. C. Randika, H. E. Martin, D. M. R. R. Sampath, D. S. Metihakwala, Kengatharaiyer Sarveswaran, M. Wijekoon",
+      "venue": "ICTer 2010",
+      "featured": false
+    },
+    {
+      "year": 2009,
+      "type": "conference",
+      "title": "Challenges in Developing MIS – Case from Government Sector",
+      "authors": "Kengatharaiyer Sarveswaran, S. Nanayakkara, P. Perera, A. Perera, S. Fernando",
+      "venue": "e-Asia 2009",
+      "featured": false
+    },
+    {
+      "year": 2009,
+      "type": "conference",
+      "title": "Tamil Localization Process – A Case Study",
+      "authors": "Kengatharaiyer Sarveswaran, Gihan Dias",
+      "venue": "Tamil Internet Conference 2009, Germany",
+      "featured": false
+    }
+  ],
+  "monographs": [
+    {
+      "year": 2008,
+      "title": "Moodle Teacher Guide (Tamil)",
+      "role": "Author",
+      "publisher": "University of Moratuwa Publications",
+      "isbn": "978-955-9027-28-7"
+    },
+    {
+      "year": 2008,
+      "title": "Moodle Student Guide (Tamil)",
+      "role": "Author",
+      "publisher": "University of Moratuwa Publications",
+      "isbn": "978-955-9027-29-4"
+    },
+    {
+      "year": 2008,
+      "title": "Joomla! User Manual",
+      "role": "Co-author",
+      "publisher": "University of Moratuwa Publications",
+      "isbn": "978-955-9027-25-6"
+    },
+    {
+      "year": 2008,
+      "title": "Mozilla Firefox User Guide",
+      "role": "Co-author",
+      "publisher": "University of Moratuwa"
+    },
+    {
+      "year": 2008,
+      "title": "Mozilla Thunderbird User Guide",
+      "role": "Co-author",
+      "publisher": "University of Moratuwa Publications"
+    }
+  ],
+  "technicalReports": [
+    {
+      "year": 2022,
+      "citation": "Iyampillai, K., Sarveswaran, K., Jesuthasan, S., & Yoganathan, S. (2022). Digitally Paired Twin Classroom – Operational Guidelines. Department of Education, Northern Province, Sri Lanka."
+    },
+    {
+      "year": 2022,
+      "citation": "Contributing author. (2022). Northern Education Review Report. Ministry of Education, Northern Province, Sri Lanka."
+    }
+  ]
+}

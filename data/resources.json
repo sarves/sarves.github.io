@@ -1,0 +1,106 @@
+{
+  "tools": [
+    {
+      "name": "Thamizhi Preprocessor",
+      "description": "Tamil preprocessing and Unicode-normalisation utilities with grammar-aware validation.",
+      "url": "https://github.com/sarves/"
+    },
+    {
+      "name": "ThamizhiLIP",
+      "description": "Tamil linguistic information-processing tool for POS/morphological tagging and dependency parsing; legacy resource requiring maintenance/update.",
+      "status": "Legacy / update needed"
+    },
+    {
+      "name": "ThamizhiMorph",
+      "description": "Finite-state morphological analyser/generator for Tamil, forming part of a broader Tamil NLP pipeline.",
+      "url": "https://doi.org/10.1007/s10590-021-09261-5"
+    },
+    {
+      "name": "Thamizhi UD Parser",
+      "description": "Tamil Universal Dependencies parsing work based on Stanza and uuparser.",
+      "url": "https://github.com/sarves/"
+    },
+    {
+      "name": "Tamil Noun Classifier",
+      "description": "Rule-based noun classification following a Tamil nominal paradigm.",
+      "url": "https://github.com/sarves/"
+    },
+    {
+      "name": "Tamil UD Documentation",
+      "description": "Living annotation documentation for Tamil Universal Dependencies.",
+      "url": "https://github.com/sarves/UD-Tamil-Doc"
+    }
+  ],
+  "datasets": [
+    {
+      "name": "TaLK-Corpus",
+      "description": "Sri Lankan Tamil speech benchmark with speakers from 22 administrative districts.",
+      "url": "https://github.com/LTG-UoJ/TaLK-Corpus-Public",
+      "status": "Public"
+    },
+    {
+      "name": "ILAKKANAM",
+      "description": "Tamil linguistic knowledge benchmark for evaluating large language models.",
+      "url": "https://github.com/LTG-UoJ/ILAKKANAM-Public",
+      "status": "Public"
+    },
+    {
+      "name": "Tamil Modern Written Treebank",
+      "description": "Universal Dependencies-based treebank work for modern written Tamil.",
+      "url": "https://github.com/sarves/",
+      "status": "Public / collaborative"
+    },
+    {
+      "name": "Thirukkuraḷ Treebank",
+      "description": "UD-oriented treebank for classical Tamil poetics, including multiword tokenisation and ellipsis.",
+      "status": "Research resource"
+    },
+    {
+      "name": "Sinhala Dependency Treebank (STB)",
+      "description": "Dependency treebank for Sinhala created through collaboration with Sri Lankan researchers.",
+      "url": "https://aclanthology.org/2023.udw-1.3/",
+      "status": "Published"
+    },
+    {
+      "name": "CeyNews",
+      "description": "Large trilingual Sri Lankan news collection supporting classification and headline generation research.",
+      "url": "https://huggingface.co/ltguoj",
+      "status": "Models public; corpus project ongoing"
+    },
+    {
+      "name": "Tamil OCR benchmark resources",
+      "description": "Datasets and benchmark material used for systematic evaluation of Tamil OCR systems.",
+      "url": "https://doi.org/10.4038/icter.v18i3.7305",
+      "status": "Published with paper"
+    },
+    {
+      "name": "Tamil e-commerce intent dataset",
+      "description": "Tamil intent-classification data developed for conversational/e-commerce research.",
+      "status": "Research resource"
+    },
+    {
+      "name": "Corpus of Jaffna Tamil",
+      "description": "Corpus work focused on Jaffna / Sri Lankan Tamil varieties.",
+      "status": "Research resource"
+    }
+  ],
+  "grammars": [
+    {
+      "name": "Tamil LFG Grammar",
+      "description": "Lexical-Functional Grammar implementation and treebank resources developed in collaboration with the University of Konstanz.",
+      "status": "Research grammar"
+    }
+  ],
+  "models": [
+    {
+      "name": "CeyNews Category Classifier",
+      "description": "InfoXLM-large model for CeyNews news-category classification.",
+      "url": "https://huggingface.co/ltguoj/CeyNews-category-infoxlm-large"
+    },
+    {
+      "name": "CeyNews Headline Generator",
+      "description": "mT5-large model for multilingual headline generation on CeyNews.",
+      "url": "https://huggingface.co/ltguoj/CeyNews-headline-mt5-large"
+    }
+  ]
+}

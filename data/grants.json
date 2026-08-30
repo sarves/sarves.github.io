@@ -1,0 +1,134 @@
+{
+  "research": [
+    {
+      "period": "2024–2027",
+      "name": "DAAD-SDG Grant – DigSAL: Addressing the Digital Divide for South Asian Languages",
+      "funder": "German Academic Exchange Service (DAAD)",
+      "role": "Partner / University of Jaffna lead",
+      "detail": "Part of a €400,000 partnership with the University of Konstanz, University of Moratuwa and UET Lahore to build capacity and language resources in South Asia."
+    },
+    {
+      "period": "2024–",
+      "name": "Google Research Grant",
+      "funder": "Google",
+      "role": "Principal / local lead",
+      "detail": "Support to build Sri Lankan Tamil speech and text resources."
+    },
+    {
+      "period": "2026",
+      "name": "Research Stay Grant",
+      "funder": "Charles University, Czech Republic / research mobility support",
+      "role": "Researcher",
+      "detail": "Research stay to develop Tamil Universal Dependencies documentation."
+    },
+    {
+      "period": "Oct–Dec 2023",
+      "name": "Tamil Conversational Engine Microgrant",
+      "funder": "University Business Linkage / AHEAD programme",
+      "role": "Researcher",
+      "detail": "Developed a Tamil conversational engine / intent-classification work for e-commerce."
+    },
+    {
+      "period": "2023",
+      "name": "University of Jaffna Research Grant",
+      "funder": "University of Jaffna",
+      "role": "Researcher",
+      "detail": "Support for high-performance computing for Tamil language processing."
+    },
+    {
+      "period": "Jun 2023–May 2024",
+      "name": "Herz Fellowship",
+      "funder": "Zukunftskolleg, University of Konstanz",
+      "role": "Postdoctoral Fellow",
+      "detail": "Postdoctoral research on Tamil treebanks and computational linguistics."
+    },
+    {
+      "period": "2017–2019",
+      "name": "Research on e-Learning Infrastructure Readiness",
+      "funder": "National Institute of Education",
+      "role": "Research team",
+      "detail": "Studied e-learning infrastructure readiness among secondary schools in Northern and Southern Sri Lanka."
+    },
+    {
+      "period": "2017–2019",
+      "name": "Dengue Early Warning / Risk Mapping Project",
+      "funder": "National Science Foundation, Sri Lanka",
+      "role": "Co-investigator",
+      "detail": "Research grant RPHS/2016/D02."
+    }
+  ],
+  "mobility": [
+    {
+      "period": "2023",
+      "name": "ITEE Foundation mobility grant",
+      "detail": "Travel to Sacramento, USA, for FiTEN / FeTNA 2023."
+    },
+    {
+      "period": "2019–2020",
+      "name": "DAAD-NSF Project-Related Personnel Exchange grant",
+      "detail": "Research mobility to the University of Konstanz."
+    },
+    {
+      "period": "2019",
+      "name": "Prof. V. K. Samaranayake travel grant",
+      "detail": "LFG 2019 at Australian National University, Canberra."
+    },
+    {
+      "period": "2017",
+      "name": "CTC mobility grant",
+      "detail": "Conference on Redeveloping Northern and Eastern Provinces of Sri Lanka, Toronto."
+    },
+    {
+      "period": "2014 & 2012",
+      "name": "DAAD scholarships",
+      "detail": "International Summer School in Advanced Language Engineering."
+    },
+    {
+      "period": "2013",
+      "name": "Mozilla Foundation travel grant",
+      "detail": "Mozilla Summit, California, USA."
+    },
+    {
+      "period": "Dec 2021",
+      "name": "Prof. V. K. Samaranayake Publication Grant",
+      "detail": "Support to publish/present work at the International Conference on Asian Language Processing (IALP 2021)."
+    },
+    {
+      "period": "Apr–Jul 2018",
+      "name": "DAAD Research Stay Support",
+      "detail": "Research stay at the University of Konstanz, Germany."
+    },
+    {
+      "period": "2012",
+      "name": "DAAD travel grant and scholarship",
+      "detail": "One-month International Summer School in Advanced Language Engineering, Nepal."
+    }
+  ],
+  "awards": [
+    {
+      "year": 2018,
+      "name": "Digital Social Impact Award",
+      "detail": "Team award at e-Swabhimani 2018, Government and Citizen Engagement category."
+    },
+    {
+      "year": 2016,
+      "name": "Jury’s Mention – mBillionth Awards South Asia",
+      "detail": "Right2Sight mobile application for visually impaired users."
+    },
+    {
+      "year": 2016,
+      "name": "National Best e-Content Award – e-Swabhimani",
+      "detail": "Right2Sight mobile application."
+    },
+    {
+      "year": 2016,
+      "name": "Best Solution Oriented Thesis Award",
+      "detail": "Consumer buying pattern analysis project, University of Jaffna."
+    },
+    {
+      "year": 2014,
+      "name": "Best Oral Presenter",
+      "detail": "International Conference on Multidisciplinary Approaches for work on a hierarchical Tamil tag-set."
+    }
+  ]
+}

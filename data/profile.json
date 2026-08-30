@@ -1,0 +1,165 @@
+{
+  "lastUpdated": "2026-08-31",
+  "name": "Kengatharaiyer Sarveswaran",
+  "shortName": "K. Sarveswaran",
+  "credentials": "Ph.D.",
+  "tagline": "Computational Linguist · Senior Lecturer in Computer Science",
+  "institution": "University of Jaffna, Sri Lanka",
+  "department": "Department of Computer Science",
+  "currentRoles": [
+    "Senior Lecturer Grade I, Department of Computer Science, University of Jaffna",
+    "Substitute Professor (W3), Department of Linguistics, University of Konstanz (April–September 2026)",
+    "Honorary DAAD Research Ambassador (2025–2028)",
+    "Editor-in-Chief, Vingnanam Journal of Science (2025–2028)"
+  ],
+  "about": "I am a computational linguist and computer scientist working on language technology for low-resource South Asian languages, with a particular focus on Tamil and Sinhala. My research spans linguistic resource creation, morphology and syntax, Universal Dependencies and Lexical-Functional Grammar, speech and text corpora, OCR, text-to-speech, language-model evaluation, and culturally grounded language technologies. I also bring a systems-engineering background in DNS, mail, web, LDAP, networking and learning-management infrastructure, which shapes my interest in practical, sustainable and openly usable research systems.",
+  "researchInterests": [
+    "Computational Linguistics and Natural Language Processing",
+    "Low-resource and South Asian language technology",
+    "Tamil and Sinhala NLP",
+    "Large and small language models for low-resource languages",
+    "Corpus creation, annotation and evaluation benchmarks",
+    "Morphology, syntax, Universal Dependencies and Lexical-Functional Grammar",
+    "Speech technology, ASR and text-to-speech",
+    "Optical Character Recognition and text normalization",
+    "Culturally grounded and responsible language technology",
+    "ICT for Development, e-Learning and open-source systems"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. in Computer Science",
+      "institution": "University of Moratuwa, Sri Lanka",
+      "period": "2018–2022",
+      "detail": "Thesis: A deep syntactic parser for the Tamil language. Supervisors: Prof. Gihan Dias and Prof. Miriam Butt."
+    },
+    {
+      "degree": "Tamil Junior Pundit (Bāla Paṇṭitar)",
+      "institution": "Jaffna Oriental Studies Society / Northern Department of Education",
+      "period": "2015–2016",
+      "detail": "Formal qualification in Tamil language and literature."
+    },
+    {
+      "degree": "M.Sc. in Computer Science",
+      "institution": "University of Moratuwa, Sri Lanka",
+      "period": "2008–2011",
+      "detail": "Computer Science."
+    },
+    {
+      "degree": "B.Sc. (Hons) in Computer Science",
+      "institution": "University of Peradeniya, Sri Lanka",
+      "period": "2002–2006",
+      "detail": "Computer Science."
+    }
+  ],
+  "appointments": [
+    {
+      "role": "Senior Lecturer in Computer Science",
+      "institution": "University of Jaffna",
+      "period": "Oct 2011–present",
+      "type": "Academic"
+    },
+    {
+      "role": "Substitute Professor (W3), General Linguistics / Computational Linguistics",
+      "institution": "University of Konstanz, Germany",
+      "period": "Apr–Sep 2026",
+      "type": "International teaching"
+    },
+    {
+      "role": "Substitute Professor (W3), General Linguistics / Computational Linguistics",
+      "institution": "University of Konstanz, Germany",
+      "period": "Apr–Sep 2024",
+      "type": "International teaching"
+    },
+    {
+      "role": "Lecturer, South Asian NLP",
+      "institution": "University of Konstanz, Germany",
+      "period": "2023",
+      "type": "International teaching"
+    },
+    {
+      "role": "Herz Postdoctoral Fellow",
+      "institution": "University of Konstanz, Germany",
+      "period": "Jul 2023–Jun 2024",
+      "type": "Research"
+    },
+    {
+      "role": "Research Assistant",
+      "institution": "National Languages Processing Centre, University of Moratuwa",
+      "period": "2018–2021",
+      "type": "Research"
+    },
+    {
+      "role": "Visiting Researcher",
+      "institution": "University of Konstanz, Germany",
+      "period": "2018; 2019",
+      "type": "Research"
+    },
+    {
+      "role": "Systems Engineer",
+      "institution": "LK Domain Registry, Sri Lanka",
+      "period": "Mar 2010–Sep 2011",
+      "type": "Technical"
+    },
+    {
+      "role": "Systems Engineer",
+      "institution": "University of Moratuwa, Sri Lanka",
+      "period": "Dec 2008–Dec 2009",
+      "type": "Technical"
+    },
+    {
+      "role": "Computer Instructor",
+      "institution": "Department of CSE, University of Moratuwa",
+      "period": "Jun 2006–Dec 2007",
+      "type": "Teaching"
+    }
+  ],
+  "highlights": [
+    {
+      "label": "Research focus",
+      "value": "Low-resource South Asian NLP"
+    },
+    {
+      "label": "Primary languages",
+      "value": "Tamil · Sinhala"
+    },
+    {
+      "label": "Workshop series",
+      "value": "CHiPSAL"
+    },
+    {
+      "label": "Open research",
+      "value": "Corpora · Treebanks · Tools · Benchmarks"
+    }
+  ],
+  "contact": {
+    "emailDisplay": "sarves at univ.jfn.ac.lk",
+    "email": "sarves@univ.jfn.ac.lk",
+    "office": "Department of Computer Science, University of Jaffna, Sri Lanka"
+  },
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?hl=en&user=xnXY9q0AAAAJ"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0003-1579-0597"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/iamsarves/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/sarves/"
+    },
+    {
+      "label": "University Profile",
+      "url": "https://csc.jfn.ac.lk/profile-sarves/"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Kengatharaiyer-Sarveswaran"
+    }
+  ]
+}

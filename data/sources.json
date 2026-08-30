@@ -1,0 +1,62 @@
+[
+  {
+    "label": "Existing personal website",
+    "url": "https://sarves.github.io/",
+    "use": "Legacy pages, historical publications, grants, resources and teaching/service records."
+  },
+  {
+    "label": "University of Jaffna profile",
+    "url": "https://csc.jfn.ac.lk/profile-sarves/",
+    "use": "Current academic designation, profile, service and publication cross-checks."
+  },
+  {
+    "label": "University of Jaffna publications",
+    "url": "https://csc.jfn.ac.lk/publications/",
+    "use": "Recent 2026 publication verification."
+  },
+  {
+    "label": "ACL Anthology – CHiPSAL 2026",
+    "url": "https://aclanthology.org/events/chipsal-2026/",
+    "use": "2026 CHiPSAL papers and authors."
+  },
+  {
+    "label": "ACL Anthology – SPEAKABLE 2026",
+    "url": "https://aclanthology.org/volumes/2026.speakable-1/",
+    "use": "TaLK-Corpus paper."
+  },
+  {
+    "label": "ACL Anthology – VarDial 2026",
+    "url": "https://aclanthology.org/2026.vardial-1.19/",
+    "use": "Tamil phonetic-transcription paper."
+  },
+  {
+    "label": "LFG 2026 official site",
+    "url": "https://conf.jfn.ac.lk/lfg/",
+    "use": "LFG 2026 programme and organiser information."
+  },
+  {
+    "label": "CHiPSAL Jaffna Symposium",
+    "url": "https://conf.jfn.ac.lk/lfg/chipsalsymp/index.php",
+    "use": "Regional symposium details."
+  },
+  {
+    "label": "LinkedIn public profile/activity",
+    "url": "https://www.linkedin.com/in/iamsarves/",
+    "use": "Recent public activity and announcements visible without private-account access."
+  },
+  {
+    "label": "Hugging Face – LTG-UoJ",
+    "url": "https://huggingface.co/ltguoj",
+    "use": "CeyNews models and public research artefacts."
+  },
+  {
+    "label": "ResearchGate public profile",
+    "url": "https://www.researchgate.net/profile/Kengatharaiyer-Sarveswaran",
+    "use": "Recent publication cross-check."
+  },
+  {
+    "label": "CV (June 2026)",
+    "url": "assets/files/Sarveswaran_CV_June_2026.pdf",
+    "use": "Education, appointments, grants, supervision, leadership, service and selected publications."
+  }
+]

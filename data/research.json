@@ -1,0 +1,213 @@
+{
+  "themes": [
+    {
+      "title": "Low-resource language models",
+      "summary": "Evaluation and development of efficient, culturally grounded language models for Tamil, Sinhala and other South Asian languages, including interest in small language models and data-efficient training.",
+      "keywords": [
+        "LLMs",
+        "SLMs",
+        "evaluation",
+        "cultural awareness"
+      ]
+    },
+    {
+      "title": "Tamil linguistic resources",
+      "summary": "Treebanks, morphological analysers, POS taggers, parsers, tokenisation frameworks, grammar engineering and annotation guidelines for modern and literary Tamil.",
+      "keywords": [
+        "Tamil",
+        "UD",
+        "LFG",
+        "morphology",
+        "syntax"
+      ]
+    },
+    {
+      "title": "Speech technology",
+      "summary": "Sri Lankan Tamil speech resources, ASR evaluation, dialect-aware phonetic transcription and expressive text-to-speech systems.",
+      "keywords": [
+        "ASR",
+        "TTS",
+        "IPA",
+        "dialects"
+      ]
+    },
+    {
+      "title": "OCR and text processing",
+      "summary": "Tamil OCR benchmarking, post-processing, Unicode normalization and text preprocessing for robust downstream NLP.",
+      "keywords": [
+        "OCR",
+        "normalization",
+        "historical text"
+      ]
+    },
+    {
+      "title": "South Asian NLP infrastructure",
+      "summary": "Cross-country collaborations, regional workshops and shared research infrastructure designed to strengthen language technology capacity in South Asia.",
+      "keywords": [
+        "CHiPSAL",
+        "DigSAL",
+        "open science"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Evaluating and Improving LLMs for Low-Resource Languages (LLM4LRL)",
+      "period": "2026–",
+      "status": "Developing / subject to funding",
+      "summary": "Research programme on data scarcity, dialectal variation and cultural awareness in LLMs for low-resource languages.",
+      "tags": [
+        "LLM",
+        "low-resource",
+        "evaluation"
+      ]
+    },
+    {
+      "title": "Sri Lankan Tamil Language Model",
+      "period": "2026–",
+      "status": "Ongoing",
+      "summary": "Building and evaluating language models designed for Sri Lankan Tamil, with attention to linguistic and cultural grounding.",
+      "tags": [
+        "Tamil",
+        "LLM",
+        "Sri Lanka"
+      ]
+    },
+    {
+      "title": "CeyNews",
+      "period": "2026–",
+      "status": "Ongoing / released models",
+      "summary": "A large trilingual Sri Lankan news corpus and models for news classification and headline generation across Sinhala, Tamil and English.",
+      "tags": [
+        "corpus",
+        "Sinhala",
+        "Tamil",
+        "English"
+      ],
+      "url": "https://huggingface.co/ltguoj"
+    },
+    {
+      "title": "TaLK-Corpus",
+      "period": "2025–2026",
+      "status": "Released",
+      "summary": "Regionally diverse Sri Lankan Tamil speech benchmark covering speakers from 22 administrative districts.",
+      "tags": [
+        "speech",
+        "ASR",
+        "Tamil"
+      ],
+      "url": "https://github.com/LTG-UoJ/TaLK-Corpus-Public"
+    },
+    {
+      "title": "ILAKKANAM benchmark",
+      "period": "2025–2026",
+      "status": "Released",
+      "summary": "Tamil-specific linguistic evaluation benchmark curated from Sri Lankan school-level Tamil examination questions.",
+      "tags": [
+        "LLM",
+        "benchmark",
+        "Tamil"
+      ],
+      "url": "https://github.com/LTG-UoJ/ILAKKANAM-Public"
+    },
+    {
+      "title": "Tamil Universal Dependencies documentation",
+      "period": "2026",
+      "status": "Ongoing documentation",
+      "summary": "Developing practical Tamil UD annotation documentation, including tokenisation, clitics, auxiliaries and head-conversion principles.",
+      "tags": [
+        "UD",
+        "treebank",
+        "annotation"
+      ],
+      "url": "https://github.com/sarves/UD-Tamil-Doc"
+    },
+    {
+      "title": "Thirukkuraḷ Treebank",
+      "period": "2024–",
+      "status": "Ongoing",
+      "summary": "Extending Universal Dependencies to Tamil poetics, including multiword tokenisation and ellipsis in the Thirukkuraḷ.",
+      "tags": [
+        "Tamil",
+        "poetics",
+        "UD"
+      ]
+    },
+    {
+      "title": "Expressive Tamil TTS",
+      "period": "2024–",
+      "status": "Ongoing",
+      "summary": "PhD-linked work on expressive Tamil speech synthesis and dialect-aware speech technology.",
+      "tags": [
+        "TTS",
+        "Tamil",
+        "speech"
+      ]
+    },
+    {
+      "title": "Tamil OCR improvement",
+      "period": "2024–",
+      "status": "Ongoing",
+      "summary": "Benchmarking Tamil OCR and developing post-processing techniques to improve recognition quality.",
+      "tags": [
+        "OCR",
+        "Tamil"
+      ]
+    },
+    {
+      "title": "DigSAL: Addressing the Digital Divide for South Asian Languages",
+      "period": "2024–2027",
+      "status": "Ongoing",
+      "summary": "DAAD-SDG partnership strengthening language-technology capacity and resources across partner institutions in Germany, Sri Lanka and Pakistan.",
+      "tags": [
+        "DAAD",
+        "capacity building",
+        "South Asia"
+      ],
+      "url": "https://www.uni-konstanz.de/"
+    },
+    {
+      "title": "Annotated Resources and Tools for Tamil",
+      "period": "2020–",
+      "status": "Long-running collaboration",
+      "summary": "Treebanks, annotation guidelines, NLP tools and parser resources for Tamil, including collaboration with IIIT Hyderabad.",
+      "tags": [
+        "Tamil",
+        "annotation",
+        "tools"
+      ]
+    },
+    {
+      "title": "Tamil Lexical-Functional Grammar",
+      "period": "2018–2022 and continuing research",
+      "status": "Research grammar",
+      "summary": "Lexical-Functional Grammar modelling and parser development for Tamil in collaboration with Miriam Butt and the University of Konstanz.",
+      "tags": [
+        "LFG",
+        "grammar engineering",
+        "Tamil"
+      ]
+    },
+    {
+      "title": "Sinhala Dependency Treebank",
+      "period": "2021–2023",
+      "status": "Published resource",
+      "summary": "Dependency treebank work for Sinhala developed with collaborators in Sri Lanka.",
+      "tags": [
+        "Sinhala",
+        "treebank",
+        "UD"
+      ]
+    }
+  ],
+  "collaborations": [
+    "University of Konstanz, Germany",
+    "University of Moratuwa, Sri Lanka",
+    "University of Engineering and Technology Lahore, Pakistan",
+    "Charles University / ÚFAL, Czech Republic",
+    "IIIT Hyderabad, India",
+    "IIT Delhi, India",
+    "AI Singapore",
+    "Regional CHiPSAL collaborators across South Asia"
+  ]
+}

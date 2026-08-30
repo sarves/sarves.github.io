@@ -1,0 +1,93 @@
+[
+  {
+    "date": "2025-11-12",
+    "title": "Challenges in Processing South Asian Languages: Insights from Tamil and Sinhala",
+    "type": "Invited talk",
+    "event": "Centre for Language Engineering, UET Lahore",
+    "location": "Lahore, Pakistan"
+  },
+  {
+    "date": "2025-11-05",
+    "title": "Challenges in Processing South Asian Languages",
+    "type": "Invited talk",
+    "event": "Symposium on Modern NLP and South Asian Languages, Mohammad Ali Jinnah University",
+    "location": "Karachi, Pakistan"
+  },
+  {
+    "date": "2024-10",
+    "title": "AI for Science and Society",
+    "type": "Presidential address",
+    "event": "30th Annual Scientific Sessions, Jaffna Science Association",
+    "location": "Jaffna, Sri Lanka"
+  },
+  {
+    "date": "2024-06-14",
+    "title": "Building Tamil Treebanks",
+    "type": "Keynote",
+    "event": "International Conference on Tamil Computing and Information Technology / Tamil Internet Conference",
+    "location": "University of Texas at Dallas, USA"
+  },
+  {
+    "date": "2024-05-16",
+    "title": "Building Tamil Computational Resources",
+    "type": "Invited talk",
+    "event": "Scientific Advisory Board Meeting, Zukunftskolleg",
+    "location": "University of Konstanz, Germany"
+  },
+  {
+    "date": "2024-02-09",
+    "title": "Tamil Computing and the Way Forward",
+    "type": "Keynote",
+    "event": "KaniTamil 2024",
+    "location": "Chennai, India"
+  },
+  {
+    "date": "2023-12-05",
+    "title": "Building Tamil Computational Resources",
+    "type": "Invited seminar",
+    "event": "Tamilex Monthly Seminar",
+    "location": "University of Hamburg, Germany"
+  },
+  {
+    "date": "2023-11-29",
+    "title": "Building a Tamil Dependency Treebank",
+    "type": "Seminar",
+    "event": "Department of German and Comparative Studies",
+    "location": "Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany"
+  },
+  {
+    "date": "2023-07-12",
+    "title": "An Overview of Natural Language Processing",
+    "type": "Keynote",
+    "event": "IEEE Summer School in Computational Intelligence",
+    "location": "Sri Lanka"
+  },
+  {
+    "date": "2023-06-30",
+    "title": "Incubation: Intersection of Academia and Entrepreneurship",
+    "type": "Guest address",
+    "event": "FiTEN Sacramento 2023 / 36th FeTNA Convention",
+    "location": "Sacramento, USA"
+  },
+  {
+    "date": "2023-03-29",
+    "title": "Tamil Language Computing: The Present and the Future",
+    "type": "Chairperson address",
+    "event": "29th Annual Sessions, Jaffna Science Association",
+    "location": "Jaffna, Sri Lanka"
+  },
+  {
+    "date": "2021-03-27",
+    "title": "Developing Syntactic Parsers for Tamil",
+    "type": "Invited talk",
+    "event": "Tamil Mozhiyiyal Sangam lecture series",
+    "location": "Online"
+  },
+  {
+    "date": "2019-10",
+    "title": "Tamil Morphology",
+    "type": "Colloquium",
+    "event": "Research Colloquium, Department of Linguistics",
+    "location": "University of Konstanz, Germany"
+  }
+]

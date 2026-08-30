@@ -1,0 +1,153 @@
+[
+  {
+    "date": "2026-08-22",
+    "title": "Yarl Geek Challenge Innovation Festival 2026",
+    "summary": "Participated in and supported the Yarl IT Hub innovation community around YGCIF 2026 in Jaffna.",
+    "tags": [
+      "community",
+      "innovation"
+    ],
+    "url": "https://www.linkedin.com/in/iamsarves/"
+  },
+  {
+    "date": "2026-07-31",
+    "title": "CHiPSAL Regional Symposium in Jaffna",
+    "summary": "Co-organised the regional Symposium on Challenges in Processing South Asian Languages at the University of Jaffna, with keynotes and panels on linguistic and computational challenges for South Asian languages.",
+    "tags": [
+      "CHiPSAL",
+      "NLP",
+      "event"
+    ],
+    "url": "https://conf.jfn.ac.lk/lfg/chipsalsymp/index.php"
+  },
+  {
+    "date": "2026-07-28",
+    "title": "LFG 2026 hosted at the University of Jaffna",
+    "summary": "Served as a local organiser of the 31st International Lexical-Functional Grammar Conference, held in Jaffna from 28–30 July 2026.",
+    "tags": [
+      "LFG",
+      "conference",
+      "linguistics"
+    ],
+    "url": "https://conf.jfn.ac.lk/lfg/"
+  },
+  {
+    "date": "2026-07-25",
+    "title": "International Workshop on Computational Sanskrit",
+    "summary": "Supported the Computational Sanskrit workshop held at the University of Jaffna from 25–27 July 2026 as part of the cluster of language-technology events around LFG 2026.",
+    "tags": [
+      "Sanskrit",
+      "workshop",
+      "digital humanities"
+    ],
+    "url": "https://conf.jfn.ac.lk/lfg/organisers/"
+  },
+  {
+    "date": "2026-07-20",
+    "title": "Open Science and Research Data Management training week",
+    "summary": "Supported an Open Science and Research Data Management training programme at the University of Jaffna through the DigSAL partnership.",
+    "tags": [
+      "open science",
+      "RDM",
+      "DigSAL"
+    ],
+    "url": "https://jfn.ac.lk/category/events/"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "CeyNews models released on Hugging Face",
+    "summary": "Released/updated CeyNews models for multilingual Sri Lankan news classification and headline generation through the LTG-UoJ Hugging Face organisation.",
+    "tags": [
+      "CeyNews",
+      "corpus",
+      "models"
+    ],
+    "url": "https://huggingface.co/ltguoj"
+  },
+  {
+    "date": "2026-06-05",
+    "title": "Tamil Universal Dependencies documentation research stay",
+    "summary": "Completed a research stay at Charles University focused on Tamil Universal Dependencies documentation and annotation guidelines.",
+    "tags": [
+      "Universal Dependencies",
+      "Tamil",
+      "research stay"
+    ],
+    "url": "https://github.com/sarves/UD-Tamil-Doc"
+  },
+  {
+    "date": "2026-05-16",
+    "title": "CHiPSAL 2026 at LREC",
+    "summary": "Co-organised the second Workshop on Challenges in Processing South Asian Languages (CHiPSAL 2026), co-located with LREC 2026 in Palma, Mallorca.",
+    "tags": [
+      "CHiPSAL",
+      "LREC",
+      "NLP"
+    ],
+    "url": "https://sites.google.com/view/chipsal/"
+  },
+  {
+    "date": "2026-05-16",
+    "title": "New Tamil and South Asian NLP publications at LREC 2026",
+    "summary": "Published work on Tamil linguistic knowledge in LLMs, Tamil hate-speech detection, multimodal low-resource content understanding, and Sri Lankan Tamil speech benchmarking.",
+    "tags": [
+      "publications",
+      "Tamil",
+      "LLM",
+      "speech"
+    ],
+    "url": "https://aclanthology.org/events/chipsal-2026/"
+  },
+  {
+    "date": "2026-03-01",
+    "title": "Dialect-aware Tamil phonetic transcription tool published",
+    "summary": "Published a VarDial 2026 paper on a dialect-aware phonetic transcription tool supporting Indian and Jaffna Tamil.",
+    "tags": [
+      "Tamil",
+      "phonetics",
+      "speech"
+    ],
+    "url": "https://aclanthology.org/2026.vardial-1.19/"
+  },
+  {
+    "date": "2026-03-01",
+    "title": "Tamil OCR evaluation published",
+    "summary": "Published a comprehensive evaluation of Tamil OCR systems, including survey, dataset construction, benchmarking and error analysis.",
+    "tags": [
+      "Tamil",
+      "OCR",
+      "journal"
+    ],
+    "url": "https://doi.org/10.4038/icter.v18i3.7305"
+  },
+  {
+    "date": "2025-11-17",
+    "title": "DAAD Research Ambassador 2025–2028",
+    "summary": "Recognised as an honorary DAAD Research Ambassador for the 2025–2028 period.",
+    "tags": [
+      "DAAD",
+      "recognition"
+    ],
+    "url": "https://www.daad.in/en/about-us/daad-network/daad-research-ambassadors/"
+  },
+  {
+    "date": "2025-11-12",
+    "title": "Invited talks in Pakistan",
+    "summary": "Delivered invited talks on challenges in processing South Asian languages at UET Lahore and Mohammad Ali Jinnah University, Karachi.",
+    "tags": [
+      "invited talk",
+      "South Asian languages"
+    ],
+    "url": "https://sarves.github.io/"
+  },
+  {
+    "date": "2025-01-19",
+    "title": "First CHiPSAL workshop at COLING 2025",
+    "summary": "Co-founded and co-organised the first CHiPSAL workshop, creating a recurring forum for research on South Asian language processing.",
+    "tags": [
+      "CHiPSAL",
+      "COLING"
+    ],
+    "url": "https://aclanthology.org/2025.chipsal-1.0/"
+  }
+]

@@ -1,0 +1,134 @@
+{
+  "note": "This file is intentionally separated by degree. Add or edit entries here; the website updates automatically. BA/BSc/MA lists are left empty where a verified consolidated supervision record was not available at build time.",
+  "groups": [
+    {
+      "degree": "PhD",
+      "students": [
+        {
+          "name": "M. Ahrane (Ahrane Mahaganapathy)",
+          "title": "Building an Expressive Tamil TTS",
+          "period": "July 2024–",
+          "status": "Current",
+          "institution": "University of Jaffna",
+          "role": "Supervisor"
+        }
+      ]
+    },
+    {
+      "degree": "MPhil",
+      "students": [
+        {
+          "name": "S. Sivashanth",
+          "title": "Improving Tamil OCR Using Post-Processing Techniques",
+          "period": "July 2024–",
+          "status": "Current",
+          "institution": "University of Jaffna",
+          "role": "Supervisor"
+        },
+        {
+          "name": "S. Ajintha",
+          "title": "Building a Sri Lankan Tamil Language Model",
+          "period": "January 2026–",
+          "status": "Current",
+          "institution": "University of Jaffna",
+          "role": "Supervisor"
+        }
+      ]
+    },
+    {
+      "degree": "MA / MSc / Master's",
+      "students": [
+        {
+          "name": "Deniz Bilgin",
+          "title": "Deciphering Sarcasm: Advancing Sentiment Analysis for Actionable Business Insights",
+          "period": "2023–2024",
+          "status": "Completed",
+          "institution": "University of Konstanz, Germany",
+          "role": "Supervisor"
+        }
+      ]
+    },
+    {
+      "degree": "MEd",
+      "students": [
+        {
+          "name": "Shranee Joysi Ruxan Emiltaine",
+          "title": "Changes in Achievement Levels while Using Smart Boards in Schools",
+          "period": "2023",
+          "status": "Completed",
+          "role": "Supervisor"
+        },
+        {
+          "name": "Vinayakamoorthy Thusyanthan",
+          "title": "Use of Electronic Devices in Practical Learning and Teaching of Information and Communication Technology",
+          "period": "2023",
+          "status": "Completed",
+          "role": "Supervisor"
+        },
+        {
+          "name": "Nithiya Arulmolivarman",
+          "title": "The Perception of Teachers on Using Smart Boards in Teaching and Learning",
+          "period": "2023",
+          "status": "Completed",
+          "role": "Supervisor"
+        },
+        {
+          "name": "Nimalan Yasotha",
+          "title": "The Impact of Information and Communication Devices on Teaching and Learning in Schools",
+          "period": "2023",
+          "status": "Completed",
+          "role": "Supervisor"
+        },
+        {
+          "name": "Krishnapillai Mathanarajh",
+          "title": "Factors Influencing the Teaching and Learning of Information and Communication Technology",
+          "period": "2023",
+          "status": "Completed",
+          "role": "Supervisor"
+        }
+      ]
+    },
+    {
+      "degree": "MA",
+      "students": []
+    },
+    {
+      "degree": "BA",
+      "students": []
+    },
+    {
+      "degree": "BSc",
+      "students": []
+    }
+  ],
+  "examinations": [
+    {
+      "level": "PhD",
+      "name": "K. P. N. S. Dayarathne",
+      "institution": "University of Moratuwa",
+      "year": 2025,
+      "role": "Examiner"
+    },
+    {
+      "level": "Master's",
+      "name": "E. M. S. J. Bandara",
+      "institution": "University of Moratuwa",
+      "year": 2025,
+      "role": "Examiner"
+    },
+    {
+      "level": "Master's",
+      "name": "S. S. J. Patabendige",
+      "institution": "University of Moratuwa",
+      "year": 2025,
+      "role": "Examiner"
+    },
+    {
+      "level": "Master's",
+      "name": "D. N. Kannangara",
+      "institution": "University of Moratuwa",
+      "year": 2025,
+      "role": "Examiner"
+    }
+  ]
+}

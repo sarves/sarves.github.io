@@ -1,0 +1,259 @@
+{
+  "leadership": [
+    {
+      "period": "2025–2028",
+      "role": "Honorary DAAD Research Ambassador",
+      "organisation": "DAAD"
+    },
+    {
+      "period": "2025–2028",
+      "role": "Editor-in-Chief",
+      "organisation": "Vingnanam Journal of Science, University of Jaffna"
+    },
+    {
+      "period": "2024–2025",
+      "role": "President",
+      "organisation": "Jaffna Science Association"
+    },
+    {
+      "period": "2023–2024",
+      "role": "President-Elect",
+      "organisation": "Jaffna Science Association"
+    },
+    {
+      "period": "2022–2023",
+      "role": "Chairperson – Applied Sciences",
+      "organisation": "Jaffna Science Association"
+    },
+    {
+      "period": "2011–present",
+      "role": "Founding member",
+      "organisation": "Yarl IT Hub"
+    },
+    {
+      "period": "2019–present",
+      "role": "International Visitor Leadership Program alumnus",
+      "organisation": "U.S. Department of State"
+    },
+    {
+      "period": "2015–2016",
+      "role": "Executive Vice President",
+      "organisation": "Internet Society Sri Lanka Chapter"
+    },
+    {
+      "period": "2013–2016",
+      "role": "Board member",
+      "organisation": "SERVE Foundation"
+    }
+  ],
+  "academicService": [
+    {
+      "role": "Co-founder / Lead organiser",
+      "detail": "CHiPSAL workshop series: CHiPSAL 2025 at COLING, CHiPSAL 2026 at LREC, and regional CHiPSAL symposia."
+    },
+    {
+      "role": "Local organiser",
+      "detail": "31st International Lexical-Functional Grammar Conference (LFG 2026), University of Jaffna."
+    },
+    {
+      "role": "Co-organiser",
+      "detail": "Workshop on Argument Structure at LFG 2026."
+    },
+    {
+      "role": "Co-organiser",
+      "detail": "Language Technology Summer School and related DigSAL capacity-building activities."
+    },
+    {
+      "role": "Reviewer / Area Chair",
+      "detail": "COLING, ACL, LREC and other computational-linguistics venues."
+    },
+    {
+      "role": "Journal reviewer",
+      "detail": "ACM TALLIP, Language Resources and Evaluation, Language Sciences, Natural Language Engineering, National Science Foundation Journal and others."
+    },
+    {
+      "role": "Faculty Board member",
+      "detail": "Faculty of Science, University of Jaffna (from 2014)."
+    },
+    {
+      "role": "IEEE Senior Member",
+      "detail": "Professional membership."
+    },
+    {
+      "role": "Association for Computational Linguistics member",
+      "detail": "Professional membership."
+    },
+    {
+      "role": "Computer Society of Sri Lanka member",
+      "detail": "Professional membership."
+    }
+  ],
+  "editorial": [
+    {
+      "year": "2026",
+      "role": "Editor",
+      "title": "Proceedings of the Second Workshop on Challenges in Processing South Asian Languages (CHiPSAL 2026)"
+    },
+    {
+      "year": "2025",
+      "role": "Editor",
+      "title": "Proceedings of the First Workshop on Challenges in Processing South Asian Languages (CHiPSAL 2025)"
+    },
+    {
+      "year": "2021",
+      "role": "Editor",
+      "title": "Proceedings of the First Workshop on Parsing and its Applications for Indian Languages (PAIL 2021)"
+    },
+    {
+      "year": "2012–2013",
+      "role": "Chief Editor",
+      "title": "Proceedings of the Jaffna Science Association"
+    },
+    {
+      "year": "2013",
+      "role": "Chief Editor",
+      "title": "Pirayoga Vignana Sudar – collection of scientific essays"
+    }
+  ],
+  "openSource": [
+    "Tamil localisation of Mozilla Firefox and Mozilla Thunderbird",
+    "Contributions to Moodle, Joomla!, GeoGebra and SquirrelMail localisation",
+    "Contributor to the Tamil Root Zone Label Generation Rules proposal",
+    "Open research software, datasets and annotation documentation for Tamil and Sinhala"
+  ],
+  "community": [
+    {
+      "role": "Yarl IT Hub",
+      "detail": "Founding member; entrepreneurship, innovation and technology-community development in Northern Sri Lanka."
+    },
+    {
+      "role": "Northern Education System Review",
+      "detail": "Led/coordinated work on teaching, learning and national examinations and later implementation monitoring."
+    },
+    {
+      "role": "Local-language computing outreach",
+      "detail": "Conducted more than 100 seminars and workshops for university staff, teachers, students and the public during early localisation work."
+    },
+    {
+      "role": "Startup Weekend",
+      "detail": "Organiser and mentor for Jaffna/Kilinochchi Startup Weekend activities."
+    }
+  ],
+  "memberships": [
+    {
+      "period": "2023–present",
+      "role": "Counsellor",
+      "organisation": "IEEE Student Branch, University of Jaffna"
+    },
+    {
+      "period": "2022–2023",
+      "role": "Advisor",
+      "organisation": "IEEE Computational Intelligence Society Student Branch Chapter, University of Jaffna"
+    },
+    {
+      "period": "2022–present",
+      "role": "Faculty Coordinator / service role",
+      "organisation": "Well-Being Centre (WeBe), University of Jaffna"
+    },
+    {
+      "period": "2022–present",
+      "role": "Member",
+      "organisation": "Curriculum revamping subcommittee for Bachelor Honours in Science and Education"
+    },
+    {
+      "period": "2014–present",
+      "role": "Member",
+      "organisation": "Faculty Board, Faculty of Science, University of Jaffna"
+    },
+    {
+      "period": "2015–present",
+      "role": "Senior Member",
+      "organisation": "IEEE"
+    },
+    {
+      "period": "2018–present",
+      "role": "Member",
+      "organisation": "Association for Computational Linguistics"
+    },
+    {
+      "period": "2018–present",
+      "role": "Member",
+      "organisation": "Computer Society of Sri Lanka"
+    },
+    {
+      "period": "2012–present",
+      "role": "Life Member",
+      "organisation": "Jaffna Science Association"
+    },
+    {
+      "period": "Current / advisory",
+      "role": "Member",
+      "organisation": "Sri Lanka Open Source Technology Selection Expert Panel"
+    }
+  ],
+  "resourcePerson": [
+    "2025 — Web Development, Professional Development Workshop for GIT Teachers, Provincial Department of Education, Northern Province.",
+    "2022 — Using the Web Effectively for Knowledge Gathering, Staff Development Centre, University of Jaffna.",
+    "2022 — ICT Tools for Knowledge and Creative Content Sharing, Sri Lankan Education Administrative Service officials.",
+    "2016 — Workshop on LMS, Faculty of Science, Eastern University of Sri Lanka.",
+    "2016 — Introduction to e-Learning and Learning Management Systems, probationary staff, University of Jaffna.",
+    "2016 — Advanced Usage of LMS, probationary staff, University of Jaffna.",
+    "2015 — LMS workshop for ELT staff, Faculty of Arts, University of Jaffna.",
+    "2015 — LMS workshop for academic staff, Faculty of Management Studies and Commerce, University of Jaffna.",
+    "2015 — Collaboration through Internet Tools, Computer Application Assistants, University of Jaffna.",
+    "2014 — Website Management workshop, University of Jaffna.",
+    "2014 — Open Source Applications workshop, University of Jaffna.",
+    "2014 — LMS for online teaching, learning and assessment, University of Jaffna.",
+    "2014 — ICT-based assessments and evaluations, Faculty of Science, University of Jaffna.",
+    "2014 — Virtual Learning training, South Eastern University of Sri Lanka.",
+    "2014 — Moodle server setup and administration training, University of Jaffna.",
+    "2013 — ICT-based teaching, learning and assessment training for biological-science staff, University of Jaffna.",
+    "2013 — Learning Management System training for probationary staff, University of Jaffna.",
+    "2010 — Web Development using PHP/MySQL for academic staff, APIIT Sri Lanka."
+  ],
+  "presentations": [
+    "2021 — Introduction to Computational Linguistics, Computational Linguistics Seminar, University of Jaffna.",
+    "2020 — ThamizhiUDp: A Dependency Parser for Tamil, 17th International Conference on Natural Language Processing.",
+    "2019 — DDSpell: A Data-Driven Spell Checker and Suggestion Generator for Tamil, ICTer.",
+    "2019 — Computational Challenges with Tamil Complex Predicates, International Lexical-Functional Grammar Conference, Australian National University.",
+    "2017 — Recognising Elders using Behavioural Biometrics, Kelaniya International Conference on Advances in Computing and Technology.",
+    "2016 — Consumer Buying Pattern Analysis using an Efficient Approach, IEEE International Conference on Engineering & Technology.",
+    "2016 — Infant Caretaker: A System to Identify Baby Cry and Entertain Crying Baby, IEEE International Conference on Engineering & Technology.",
+    "2014 — Teaching, Learning and National Examination, Northern Education Review Symposium.",
+    "2014 — Hierarchical Tag Set for Rule-Based Processing of Tamil Language, International Conference on Multidisciplinary Approaches.",
+    "2012 — தமிழ் கணினி – செய்ய வேண்டியவை, World Tamil Literary Conference.",
+    "2011 — கணினியில் தமிழ், International Tamil Writers Conference.",
+    "2010 — Localising Free and Open Source Software, Jaffna Science Association."
+  ],
+  "workshopsSeminars": [
+    "2026 — 31st International Lexical-Functional Grammar Conference, University of Jaffna — local organiser.",
+    "2026 — CHiPSAL Regional Symposium, University of Jaffna — co-organiser.",
+    "2026 — International Workshop on Computational Sanskrit, University of Jaffna — supporting organiser/collaborator.",
+    "2026 — Open Science and Research Data Management programme, University of Jaffna / DigSAL — supporting organiser.",
+    "2026 — Second CHiPSAL Workshop, co-located with LREC 2026 — co-organiser/editor.",
+    "2025 — First CHiPSAL Workshop, co-located with COLING 2025 — co-organiser/editor.",
+    "2025 — Language Technology Summer School — organised through the DAAD-SDG partnership.",
+    "2025 — Workshop on Democratizing GenAI and Scalable NLP with HiPC for Societal Impact — co-organiser.",
+    "2021 — Workshop on Parsing and its Applications for Indian Languages (PAIL 2021), co-located with ICON 2021.",
+    "2021 — International Workshop on Tamil Treebank Annotation (WTTA 2021).",
+    "2021 — 26th International Lexical-Functional Grammar Conference — organising committee member.",
+    "2020 — 25th International Lexical-Functional Grammar Conference — organising committee member.",
+    "2019 — International Spring School in Advanced Language Engineering (ISSALE), DAAD supported — co-organiser.",
+    "2017 — Workshop on incorporating ICT components into curriculum, Computer Unit, University of Jaffna.",
+    "2015 — Training workshop on computerising administrative work, External Degree Programme Unit.",
+    "2015 — Collaboration through Internet Tools workshop for Computer Application Assistants.",
+    "2014 — Two-day Moodle workshop for Biological Science academic staff.",
+    "2013 — Three-day workshop on e-resources and ICT-based assessment for Biological Science staff.",
+    "2013 — Mobile Application Development using HTML5 workshop.",
+    "2013 — Website-building workshop for Mathematics and Statistics staff.",
+    "2010 — Conference on Localized Systems and Applications, University of Moratuwa — organising committee member.",
+    "2009 — Symposium on Localized Systems and Applications, University of Moratuwa — organising committee member."
+  ],
+  "creativeWork": [
+    "Designed invitations, proceedings-cover and certificate materials for Jaffna University International Research Conference (JUICE) 2014.",
+    "Developed websites for University of Jaffna General Convocations 2012 and 2013.",
+    "Produced departmental / Faculty of Science photography and handbook-cover photography.",
+    "Developed websites for University of Jaffna units including the Staff Development Centre and science departments during 2012–2016.",
+    "Co-developed the Department of Computer Science website at the University of Jaffna in 2012."
+  ]
+}

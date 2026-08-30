@@ -130,3 +130,15 @@ code { background:var(--soft); border:1px solid var(--line); border-radius:5px; 
   .card { box-shadow:none; break-inside:avoid; }
   a { color:black; text-decoration:none; }
 }
+
+/* Student filtering */
+.student-keywords { margin-top:.5rem; }
+.filters #student-degree,
+.filters #student-year,
+.filters #student-keyword { min-width:150px; }
+@media (max-width:650px){
+  .filters #student-search,
+  .filters #student-degree,
+  .filters #student-year,
+  .filters #student-keyword { width:100%; min-width:0; }
+}

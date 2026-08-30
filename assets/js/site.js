@@ -9,11 +9,23 @@ const fmtDate = d => {
   if(/^\d{4}-\d{2}$/.test(d)) return new Intl.DateTimeFormat('en',{year:'numeric',month:'short'}).format(new Date(d+'-01T00:00:00'));
   return d;
 };
+// Resolve the site root from this script's own URL. This keeps JSON loading
+// working on GitHub Pages even when the site is served from a subdirectory.
+const SITE_ROOT = (() => {
+  const script = document.currentScript || [...document.scripts].find(s => /\/assets\/js\/site\.js(?:[?#].*)?$/.test(s.src));
+  return script?.src ? new URL('../../', script.src) : new URL('./', document.baseURI);
+})();
+
 async function loadJSON(name){
   if(DATA[name]) return DATA[name];
-  const r = await fetch(`data/${name}.json`, {cache:'no-store'});
-  if(!r.ok) throw new Error(`Could not load data/${name}.json`);
-  return DATA[name] = await r.json();
+  const url = new URL(`data/${name}.json`, SITE_ROOT);
+  const r = await fetch(url, {cache:'no-store'});
+  if(!r.ok) throw new Error(`Could not load ${url.pathname} (HTTP ${r.status})`);
+  try {
+    return DATA[name] = await r.json();
+  } catch (e) {
+    throw new Error(`Invalid JSON in ${url.pathname}: ${e.message}`);
+  }
 }
 function linkButton(label,url,cls='') { return url ? `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>` : ''; }
 function setActiveNav(){
@@ -63,7 +75,87 @@ async function renderPublications(){
   $('#monographs').innerHTML=d.monographs.map(x=>card(x.title,`${esc(x.role)} · ${esc(x.publisher)}${x.isbn?` · ISBN ${esc(x.isbn)}`:''}`,String(x.year))).join(''); if($('#technical-reports')) $('#technical-reports').innerHTML=(d.technicalReports||[]).map(x=>card('Technical report',esc(x.citation),String(x.year))).join('');
 }
 async function renderResearch(){ const d=await loadJSON('research'); $('#research-themes').innerHTML=d.themes.map(x=>card(x.title,esc(x.summary),'Theme',x.keywords)).join(''); $('#research-projects').innerHTML=d.projects.map(x=>card(x.title,`${esc(x.summary)}${x.url?` <a href="${esc(x.url)}" target="_blank" rel="noopener">Project/resource ↗</a>`:''}`,`${x.period} · ${x.status}`,x.tags)).join(''); $('#research-collabs').innerHTML=d.collaborations.map(x=>`<li>${esc(x)}</li>`).join(''); }
-async function renderStudents(){ const d=await loadJSON('students'); $('#students-note').textContent=d.note; $('#student-groups').innerHTML=d.groups.map(g=>`<section class="degree-group"><div class="section-head"><h2>${esc(g.degree)}</h2><p>${g.students.length} ${g.students.length===1?'student':'students'}</p></div>${g.students.length?g.students.map(s=>`<div class="student-row"><div><div class="student-name">${esc(s.name)}</div><div class="meta">${esc(s.institution||'University of Jaffna')}</div></div><div><strong>${esc(s.title||'Research project')}</strong><div class="meta">${esc(s.role||'Supervisor')}</div></div><div><span class="tag">${esc(s.status||'')}</span><div class="meta">${esc(s.period||'')}</div></div></div>`).join(''):`<div class="empty-note">No verified entries are included yet. Add students to the ${esc(g.degree)} array in <code>data/students.json</code>.</div>`}</section>`).join(''); $('#examinations').innerHTML=d.examinations.map(x=>card(`${x.level} examiner — ${x.name}`,`${esc(x.institution)} · ${x.year}`,x.role)).join(''); }
+const STUDENT_TOPIC_RULES = [
+  ['Tamil', /\btamil\b|thiruku|kuṟaḷ|kural/i],
+  ['Sinhala', /\bsinhala\b/i],
+  ['Speech / TTS', /text[- ]to[- ]speech|\btts\b|automatic dubbing|prosod/i],
+  ['Automatic Speech Recognition', /automatic speech recognition|\basr\b/i],
+  ['Language Models / LLMs', /language model|\bllm\b|open[- ]source language models?/i],
+  ['Dialectal NLP', /dialect/i],
+  ['OCR', /\bocr\b|optical character recognition/i],
+  ['Text Generation', /text generation|generation:/i],
+  ['Sentiment Analysis', /sentiment/i],
+  ['Sarcasm', /sarcasm/i],
+  ['Morphology', /morpholog/i],
+  ['Treebanks / Annotation', /treebank|annotation/i],
+  ['Corpus Linguistics', /corpus/i],
+  ['Education Technology', /smart[- ]?board|teaching and learning|learning and teaching|achievement levels|electronic devices/i],
+  ['ICT Education', /information and communication technology/i],
+  ['Machine Translation', /machine translation/i],
+  ['Hate Speech', /hate speech/i],
+  ['Emotion Detection', /emotion detection/i],
+  ['Localisation', /locali[sz]ation/i],
+  ['Spell Checking', /spell checker/i],
+  ['Grammar Checking', /grammar checker/i],
+  ['IoT', /\biot\b|internet of things/i],
+  ['Computer Vision / Image Processing', /image processing|3d model|architectural plan/i],
+  ['Assistive Technology', /right2sight|senior citizen assistant|infant caretaker/i],
+  ['Automation', /automation|monitoring system/i],
+  ['Data Mining / Prediction', /predict|pattern analysis|consumer buying/i],
+  ['Information Retrieval', /retrieval engine|apache solr/i],
+  ['Web / User Behaviour', /next page|user will visit/i],
+  ['Distributed Systems', /distributed storage/i],
+  ['NFC / Mobile Computing', /near field communication|\bnfc\b|mobile terminal/i]
+];
+function studentTopics(s){
+  const title=s.title||'';
+  const auto=STUDENT_TOPIC_RULES.filter(([,rx])=>rx.test(title)).map(([label])=>label);
+  const manual=Array.isArray(s.keywords)?s.keywords:[];
+  return [...new Set([...manual,...auto])];
+}
+function studentYears(s){
+  return [...new Set(String(s.period||'').match(/\b(?:19|20)\d{2}\b/g)||[])];
+}
+function studentHTML(s){
+  const topics=studentTopics(s);
+  const title=s.title?`<strong>${esc(s.title)}</strong>`:'';
+  const status=s.status?`<span class="tag">${esc(s.status)}</span>`:'';
+  const registration=s.registration?`<div class="meta">${esc(s.registration)}</div>`:'';
+  return `<div class="student-row"><div><div class="student-name">${esc(s.name)}</div><div class="meta">${esc(s.institution||'University of Jaffna')}</div>${registration}</div><div>${title}<div class="meta">${esc(s.role||'Supervisor')}</div>${topics.length?`<div class="tag-list student-keywords">${topics.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`:''}</div><div>${status}<div class="meta">${esc(s.period||'')}</div></div></div>`;
+}
+async function renderStudents(){
+  const d=await loadJSON('students');
+  $('#students-note').textContent=d.note;
+  const flat=d.groups.flatMap(g=>g.students.map(s=>({...s,degree:g.degree,_topics:studentTopics(s),_years:studentYears(s)})));
+  const degrees=d.groups.filter(g=>g.students.length).map(g=>g.degree);
+  const years=[...new Set(flat.flatMap(s=>s._years))].sort((a,b)=>Number(b)-Number(a));
+  const topics=[...new Set(flat.flatMap(s=>s._topics))].sort((a,b)=>a.localeCompare(b));
+  $('#student-degree').innerHTML='<option value="">All degrees</option>'+degrees.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
+  $('#student-year').innerHTML='<option value="">All years</option>'+years.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
+  $('#student-keyword').innerHTML='<option value="">All topics</option>'+topics.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
+
+  const draw=()=>{
+    const q=$('#student-search').value.trim().toLowerCase();
+    const degree=$('#student-degree').value;
+    const year=$('#student-year').value;
+    const keyword=$('#student-keyword').value;
+    const matches=s=>
+      (!q || String(s.name||'').toLowerCase().includes(q)) &&
+      (!degree || s.degree===degree) &&
+      (!year || s._years.includes(year)) &&
+      (!keyword || s._topics.includes(keyword));
+    const filtered=flat.filter(matches);
+    $('#student-count-filtered').textContent=filtered.length;
+    const groups=d.groups.map(g=>({
+      degree:g.degree,
+      students:filtered.filter(s=>s.degree===g.degree)
+    })).filter(g=>g.students.length);
+    $('#student-groups').innerHTML=groups.length?groups.map(g=>`<section class="degree-group"><div class="section-head"><h2>${esc(g.degree)}</h2><p>${g.students.length} ${g.students.length===1?'student':'students'}</p></div>${g.students.map(studentHTML).join('')}</section>`).join(''):'<div class="empty-note">No students match the current filters.</div>';
+  };
+  ['student-search','student-degree','student-year','student-keyword'].forEach(id=>$('#'+id).addEventListener(id==='student-search'?'input':'change',draw));
+  draw();
+  $('#examinations').innerHTML=d.examinations.map(x=>card(`${x.level} examiner — ${x.name}`,`${esc(x.institution)} · ${x.year}`,x.role)).join('');
+}
 async function renderGrants(){ const d=await loadJSON('grants'); $('#research-grants').innerHTML=d.research.map(x=>card(x.name,`${esc(x.detail)}<br><strong>Role:</strong> ${esc(x.role)}`,`${x.period} · ${x.funder}`)).join(''); $('#mobility-grants').innerHTML=d.mobility.map(x=>card(x.name,esc(x.detail),x.period)).join(''); $('#awards').innerHTML=d.awards.sort((a,b)=>b.year-a.year).map(x=>card(x.name,esc(x.detail),String(x.year))).join(''); }
 async function renderResources(){ const d=await loadJSON('resources'); const draw=(id,arr)=>$(id).innerHTML=arr.map(x=>card(x.name,`${esc(x.description)}${x.url?` <a href="${esc(x.url)}" target="_blank" rel="noopener">Open ↗</a>`:''}`,x.status||'Resource')).join(''); draw('#tools',d.tools); draw('#datasets',d.datasets); draw('#grammars',d.grammars); draw('#models',d.models); }
 async function renderTeaching(){ const d=await loadJSON('teaching'); $('#teaching-current').innerHTML=d.current.map(x=>card(x.course,esc(x.detail),`${x.level} · ${x.institution} · ${x.year}`)).join(''); $('#teaching-international').innerHTML=d.international.map(x=>card(x.course,esc(x.detail),`${x.institution} · ${x.year}`)).join(''); $('#teaching-undergrad').innerHTML=d.undergraduate.map(x=>`<li>${esc(x)}</li>`).join(''); $('#teaching-postgrad').innerHTML=d.postgraduate.map(x=>`<li>${esc(x)}</li>`).join(''); $('#teaching-training').innerHTML=d.training.map(x=>`<li>${esc(x)}</li>`).join(''); if($('#teaching-historical')) $('#teaching-historical').innerHTML=(d.historicalTeaching||[]).map(x=>card(x.course,esc(x.institution),x.period)).join(''); }

@@ -33,7 +33,23 @@
     </nav>
   </div>
 </header>
-<main id="main"><section class="page-hero"><div class="container"><div class="eyebrow">Mentoring</div><h1>Research students</h1><p>Current and completed research supervision, organised by degree. This page is intentionally maintained entirely from <code>data/students.json</code>.</p></div></section><div class="container"><div class="notice" id="students-note"></div><section class="section" id="student-groups" style="margin-top:2rem"></section><section class="section"><div class="section-head"><h2>Research examination</h2><p>Selected external/internal thesis examination activity.</p></div><div class="grid grid-2" id="examinations"></div></section></div></main>
+<main id="main">
+<section class="page-hero"><div class="container"><div class="eyebrow">Mentoring</div><h1>Research students</h1><p>Current and completed research supervision across degree programmes. Search by student name or filter by degree, year and research topic.</p></div></section>
+<div class="container">
+  <div class="notice" id="students-note"></div>
+  <section class="section">
+    <div class="filters" aria-label="Student filters">
+      <input id="student-search" type="search" placeholder="Search student name…" aria-label="Search by student name">
+      <select id="student-degree" aria-label="Filter students by degree"></select>
+      <select id="student-year" aria-label="Filter students by year"></select>
+      <select id="student-keyword" aria-label="Filter students by research topic"></select>
+      <span><strong id="student-count-filtered">0</strong> students</span>
+    </div>
+    <div id="student-groups"></div>
+  </section>
+  <section class="section"><div class="section-head"><h2>Research examination</h2><p>Selected external/internal thesis examination activity.</p></div><div class="grid grid-2" id="examinations"></div></section>
+</div>
+</main>
 <footer class="site-footer" id="site-footer"></footer>
 </body>
 </html>

@@ -1,56 +1,56 @@
 {
   "research": [
     {
-      "period": "2024–2027",
+      "period": "2024–2027: Research grant (Euro 400,000)",
       "name": "DAAD-SDG Grant – DigSAL: Addressing the Digital Divide for South Asian Languages",
       "funder": "German Academic Exchange Service (DAAD)",
-      "role": "Partner / University of Jaffna lead",
+      "role": "Co-Investigator and the Project Lead - University of Jaffna",
       "detail": "Part of a €400,000 partnership with the University of Konstanz, University of Moratuwa and UET Lahore to build capacity and language resources in South Asia."
     },
     {
-      "period": "2024–",
+      "period": "2024–2026: Research grant",
       "name": "Google Research Grant",
       "funder": "Google",
-      "role": "Principal / local lead",
+      "role": "Principal Investigator",
       "detail": "Support to build Sri Lankan Tamil speech and text resources."
     },
     {
-      "period": "2026",
-      "name": "Research Stay Grant",
+      "period": "2026: Travel+Stay (Euro 1,200)",
+      "name": "Building Tamil UD treebank",
       "funder": "Charles University, Czech Republic / research mobility support",
-      "role": "Researcher",
+      "role": "Principal Investigator",
       "detail": "Research stay to develop Tamil Universal Dependencies documentation."
     },
     {
-      "period": "Oct–Dec 2023",
+      "period": "Oct–Dec 2023: Research grant (LKR 400,000)",
       "name": "Tamil Conversational Engine Microgrant",
       "funder": "University Business Linkage / AHEAD programme",
-      "role": "Researcher",
+      "role": "Principal Investigator",
       "detail": "Developed a Tamil conversational engine / intent-classification work for e-commerce."
     },
     {
-      "period": "2023",
+      "period": "2023-2025: Research grant(LKR 1.2 Million) ",
       "name": "University of Jaffna Research Grant",
       "funder": "University of Jaffna",
-      "role": "Researcher",
+      "role": "Principal Investigator",
       "detail": "Support for high-performance computing for Tamil language processing."
     },
     {
-      "period": "Jun 2023–May 2024",
+      "period": "Jun 2023–May 2024: Travel+Stay+Research grant",
       "name": "Herz Fellowship",
       "funder": "Zukunftskolleg, University of Konstanz",
       "role": "Postdoctoral Fellow",
       "detail": "Postdoctoral research on Tamil treebanks and computational linguistics."
     },
     {
-      "period": "2017–2019",
+      "period": "2017–2019: Research grant (LKR 1 Million)",
       "name": "Research on e-Learning Infrastructure Readiness",
       "funder": "National Institute of Education",
-      "role": "Research team",
+      "role": "Co-investigator",
       "detail": "Studied e-learning infrastructure readiness among secondary schools in Northern and Southern Sri Lanka."
     },
     {
-      "period": "2017–2019",
+      "period": "2017–2019: Research grant (LKR 21.4871 Million)",
       "name": "Dengue Early Warning / Risk Mapping Project",
       "funder": "National Science Foundation, Sri Lanka",
       "role": "Co-investigator",
@@ -64,12 +64,12 @@
       "detail": "Travel to Sacramento, USA, for FiTEN / FeTNA 2023."
     },
     {
-      "period": "2019–2020",
+      "period": "2019–2020 (Euro 6,000) ",
       "name": "DAAD-NSF Project-Related Personnel Exchange grant",
       "detail": "Research mobility to the University of Konstanz."
     },
     {
-      "period": "2019",
+      "period": "2019 (LKR 150,000)",
       "name": "Prof. V. K. Samaranayake travel grant",
       "detail": "LFG 2019 at Australian National University, Canberra."
     },

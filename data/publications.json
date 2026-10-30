@@ -6,7 +6,8 @@
     "title": "Proceedings of Abstracts, JSA Annual Sessions",
     "authors": "Kengatharaiyer Sarveswaran (Chief Editor)",
     "venue": "Jaffna Science Association, Vol. 20, Issue 1",
-    "featured": false
+    "featured": true,
+      "url":"https://github.com/sarves/sarves.github.io/blob/main/data/files/jsa-abstracts-2013.pdf"
   },
   {
     "year": 2012,
@@ -14,7 +15,8 @@
     "title": "Proceedings of Addresses, JSA Annual Sessions",
     "authors": "Kengatharaiyer Sarveswaran (Chief Editor)",
     "venue": "Jaffna Science Association, Vol. 19, Issue 2",
-    "featured": false
+    "featured": true,
+    "url": "https://github.com/sarves/sarves.github.io/blob/main/data/files/jsa-address-2012.pdf"
   },
     {
   "year": 2026,

@@ -1,6 +1,22 @@
 {
   "publications": [
     {
+    "year": 2013,
+    "type": "proceedings",
+    "title": "Proceedings of Abstracts, JSA Annual Sessions",
+    "authors": "Kengatharaiyer Sarveswaran (Chief Editor)",
+    "venue": "Jaffna Science Association, Vol. 20, Issue 1",
+    "featured": false
+  },
+  {
+    "year": 2012,
+    "type": "proceedings",
+    "title": "Proceedings of Addresses, JSA Annual Sessions",
+    "authors": "Kengatharaiyer Sarveswaran (Chief Editor)",
+    "venue": "Jaffna Science Association, Vol. 19, Issue 2",
+    "featured": false
+  },
+    {
   "year": 2026,
   "type": "conference",
   "title": "CeyNews: A Sri Lankan Trilingual News Corpus",

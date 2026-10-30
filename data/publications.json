@@ -1,6 +1,16 @@
 {
   "publications": [
     {
+  "year": 2026,
+  "type": "conference",
+  "title": "CeyNews: A Sri Lankan Trilingual News Corpus",
+  "authors": "Ajintha Sivakulasingam, Kengatharaiyer Sarveswaran, Tharindu Ranasinghe",
+  "venue": "Proceedings of the 13th Web-as-Corpus Workshop",
+  "pages": "308–319",
+  "url": "https://aclanthology.org/2026.wac-1.27/",
+  "featured": true
+},
+    {
       "year": 2026,
       "type": "proceedings",
       "title": "Proceedings of the Second Workshop on Challenges in Processing South Asian Languages (CHiPSAL 2026)",
